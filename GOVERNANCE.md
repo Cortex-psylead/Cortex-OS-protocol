@@ -1,11 +1,12 @@
-# Project Governance
+# 🏛️ Project Governance & Ethical Nodes
 
-## Academic Safeguard Model
-This project proposes a federated governance model where academic institutions act as ethical auditors.
+## The Academic Safeguard
+To prevent corporate hijacking of user attention, Cortex OS delegates ethical control to **University Nodes**.
 
-### University Nodes
-- **Technical Audit:** Verification of zero-data-leakage policies.
-- **Psychological Validation:** Assessment of interface impact on user dopamine levels and cognitive load.
-- **Ethics Committee:** Approval of third-party "Capabilities" to prevent dark patterns.
+### Responsibilities of the Nodes:
+1. **Dopamine Audit:** Ensuring no "Capabilities" use intermittent reinforcement patterns.
+2. **Privacy Certification:** Verifying through code audit that the NPU remains local and sovereign.
+3. **Hardware Ethics:** Ensuring that the full power of the device is accessible to the user without hidden manufacturer locks.
 
-*Note: We are currently seeking initial partnerships with academic institutions to establish the first Founding Nodes.*
+## User Autonomy
+Cortex OS is **Non-Prohibitive**. The system provides a healthy environment by default, but the user remains the absolute sovereign to customize their experience, stimulus levels, and hardware performance.
