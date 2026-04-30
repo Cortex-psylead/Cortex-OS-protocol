@@ -1,9 +1,10 @@
-# Contributing to Cortex OS
+# 🤝 Join the Revolution
 
-We are looking for visionaries and experts in the following areas:
-- **Kernel Developers:** Linux optimization for ARM.
-- **AI Engineers:** Local LLM quantization and inference.
-- **Psychologists & Neuroscientists:** Defining the ethical and cognitive framework.
-- **UX/UI Designers:** Creating the non-addictive sovereign interface.
+We are looking for pioneers in the following fields:
 
-If you share the vision of cognitive sovereignty, feel free to open a Discussion or propose an architectural change.
+* **Kernel & Low-Level Engineers:** Experience with ARM64, Snapdragon optimization, and NPU acceleration.
+* **AI Researchers:** Optimization of LLMs (quantization) for mobile hardware.
+* **Psychologists & Neuroscientists:** Defining the metrics for cognitive load and healthy digital environments.
+* **UI/UX Visionaries:** Designing a "Sovereign Interface" that doesn't rely on icons or app-grids.
+
+**How to start:** Open a Discussion in this repository or propose an enhancement to the current Architecture.md.
