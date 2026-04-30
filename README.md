@@ -1,47 +1,35 @@
-# Cortex OS Protocol
-### Framework for Cognitive Sovereignty and Ethical Local AI
+# 🧠 Cortex OS Protocol
+### The Interface between Sovereign Mind and Raw Silicon 
 
-**Cortex OS** is an open-source operating system architecture designed to restore human autonomy. It is not just software; it is an ethical framework that utilizes local Artificial Intelligence to eliminate digital addiction and protect user attention.
-
----
-
-## 🇪🇸 Resumen del Proyecto (Spanish)
-**Cortex OS** es un protocolo de sistema operativo diseñado para devolver la autonomía al ser humano. Es una arquitectura ética que utiliza IA local (LLM) integrada en el Kernel para eliminar la manipulación atencional y proteger la salud mental.
-
-### 🧠 Pilares / Pillars
-1. **Local AI (Bare Metal):** AI inference runs 100% locally on the NPU/GPU. Privacy is a physical law, not just a policy.
-2. **Cognitive Hygiene:** Designed under Neuropsychological principles to prevent dopamine hijacking and "infinite scroll" loops.
-3. **Sovereign Interface:** No apps, only "Capabilities" on demand. The user remains the absolute sovereign of the experience.
-4. **Academic Governance:** The ethical roadmap is overseen by a federated network of University Nodos (Academic Safeguard).
+**Cortex OS** is an open-source mobile operating system architecture for ARM (Snapdragon/NPU) designed to restore human autonomy. We combine high-performance hardware utilization with neuropsychological safeguards.
 
 ---
 
-## 🛡️ Scientific Foundations / Bases Científicas
-This project applies **Cognitive Load Theory** and **Dopamine Hygiene** to system design.
-* **Behavioral Extinction:** Removal of intermittent reinforcements.
-* **Executive Control:** The system adapts to the user's mental workload, not the other way around.
+## 🇪🇸 Filosofía del Proyecto (Spanish)
+Cortex OS no es solo un sistema operativo; es una **declaración de soberanía**. Mientras los sistemas actuales limitan el hardware para extraer datos y manipular la atención, Cortex OS libera la potencia del silicio y protege la claridad de la psique humana.
+
+### ⚡ Los Dos Pilares / The Two Pillars
+
+#### 1. Libertad de Hardware (The Sword)
+* **Raw Power Access:** Acceso directo a los núcleos de **Ray Tracing** para renderizado de interfaces y audio espacial 3D, no solo para juegos.
+* **NPU Sovereignty:** El motor neuronal (NPU) es privado. Inferencia de IA 100% local (Llama-based) sin dependencia de la nube.
+* **Audio-Native High Fidelity:** Uso sin restricciones de los DACs internos para una experiencia sonora de grado audiófilo.
+
+#### 2. Salvaguarda Cognitiva (The Shield)
+* **Higiene Dopaminérgica:** Eliminación por diseño de patrones oscuros (scroll infinito y refuerzo intermitente).
+* **Carga Cognitiva Optimizada:** El sistema se adapta a la capacidad atencional del usuario según principios de la Psicología Cognitiva.
+* **Interfaz Soberana:** No más aplicaciones fragmentadas; solo "Capacidades" bajo demanda gestionadas por el Agente Maestro.
 
 ---
 
-## 🏛️ Governance / Gobernanza
-Cortex OS proposes a decentralized governance model where academic institutions (University Nodes) act as auditors of ethical transparency and data privacy.
+## 🛠️ Especificaciones Técnicas (Hardware Target)
+* **Processor:** ARM v8/v9 (Focus: Snapdragon 8 Gen 1+ / Dimensity 9000+).
+* **AI Core:** Hardware-accelerated local inference (ExecuTorch/Llama.cpp).
+* **Graphics:** Utilization of Ray Tracing cores for system UI and spatial signal processing.
 
 ---
 
-## 💎 The Essence: Hardware Liberation
-Cortex OS is built on the belief that users should have unrestricted access to the full potential of their hardware. 
+## 🏛️ Gobernanza Universitaria
+El control ético reside en una red federada de Nodos Académicos. Buscamos la colaboración de Facultades de Psicología e Ingeniería para validar que el sistema cumpla con su promesa de no-manipulación.
 
-* **Beyond Standard Use:** Utilizing Ray Tracing cores for spatial audio environments and real-time data visualization.
-* **NPU Sovereignty:** Turning neural engines into personal, private cognitive assistants.
-* **Hardware-Native Performance:** Eliminating the "bloatware" layers to allow direct interaction with the silicon's power.
-
-**Protection is the standard; Freedom is the goal.**
-
----
-
-## 🛠️ Tech Stack (Target)
-* **Kernel:** Linux Mainline / AOSP-Base
-* **Inference:** ExecuTorch / Llama.cpp
-* **Hardware:** ARM v8/v9 (Snapdragon 8 Gen 1+ / Dimensity 9000+)
-
-  
+*Actualmente buscando Nodos Fundadores.*
