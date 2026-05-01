@@ -1,50 +1,47 @@
 # 🧠 Cortex OS Protocol
-### The Interface between Sovereign Mind and Raw Silicon 
+### Unleashing the Silicon. Protecting the Soul.
 
-**Cortex OS** is an open-source mobile operating system architecture for ARM (Snapdragon/NPU) designed to restore human autonomy. We combine high-performance hardware utilization with neuropsychological safeguards.
+**Cortex OS** is not a mobile operating system; it is a **Sovereign Neural Interface**. It is the bridge between the raw, untapped power of modern ARM hardware and the delicate complexity of the human psyche. 
 
----
-
-## 🇪🇸 Resumen del Proyecto (Spanish)
-Cortex OS es un protocolo de sistema operativo móvil diseñado para devolver la autonomía al ser humano. Es una arquitectura que libera la potencia total del hardware (silicio) y la pone al servicio de la salud mental, eliminando la manipulación atencional y protegiendo la soberanía cognitiva.
+Designed for everyone—from the extreme power-user to the neurodivergent individual—Cortex OS scales its capabilities to meet the user where they are, without ever compromising their cognitive integrity.
 
 ---
 
-## ⚡ Core Pillars / Pilares Centrales
+## 🇪🇸 La Visión: Poder con Propósito (Spanish)
+Cortex OS nace para romper las cadenas del software comercial. Es un sistema diseñado para masificar el acceso al potencial total del hardware, pero controlado conscientemente por la misma comunidad. 
 
-### 1. Hardware Liberation (The Sword)
-* **Raw Silicon Access:** Direct utilization of **Ray Tracing** cores for spatial audio environments and real-time data visualization.
-* **NPU Sovereignty:** Neural Processing Unit is dedicated 100% to private, local AI inference (No cloud dependency).
-* **Audio-Native High Fidelity:** Unrestricted access to internal DACs for professional-grade audio processing.
-
-### 2. Neuropsychological Safeguard (The Shield)
-* **Dopamine Hygiene:** Elimination of "Dark Patterns" like infinite scroll and intermittent reinforcements by design.
-* **Cognitive Load Management:** The system adapts its interface to the user's mental state, preventing sensory overload.
-* **Sovereign Interface:** No app-grid; only on-demand "Capabilities" orchestrated by a private Local Agent.
+Aquí, la libertad no es caos: es la capacidad de exprimir cada transistor del dispositivo bajo un marco de ética clínica y bienestar humano. Es el equilibrio perfecto entre la **necesidad primaria del usuario** y los **instrumentos avanzados del profesional**.
 
 ---
 
-## 🧩 Clinical Capabilities & Neurodivergence
-Cortex OS is built to adapt to neurodiverse cognitive profiles, providing a native supportive environment.
+## 💎 The Spectrum of Power / El Espectro de Poder
 
-* **ASD (Autism Spectrum) Support:**
-    * **Sensory Buffer Mode:** Automatic UI simplification (low contrast, muted haptics) triggered by environmental sensors.
-    * **Social Semantic Translator:** Local NLP to assist in decoding social pragmatics and non-literal intent.
-* **Anxiety & Stress Regulation:**
-    * **Vagus Nerve Stimulation:** Real-time HRV (Heart Rate Variability) monitoring to trigger breathing guides or binaural audio via high-fidelity DAC.
-* **Impulse Control:** * **Ethical Friction:** Intentional system latency in high-impulse triggers (gambling/compulsive scrolling) to foster conscious decision-making.
+### 🚀 For the Power-User (Freedom without Chains)
+* **Direct Silicon Access:** Total control over Ray Tracing cores, NPU, and High-Fidelity DACs. 
+* **Zero-Throttling Policy:** The hardware works for you, not for the manufacturer's cloud. 
+* **Bare Metal Performance:** Elimination of bloatware to allow real-time processing of massive datasets or high-end emulation.
+
+### 🔬 For the Professional (Clinical Precision)
+* **Neurofeedback Ready:** Direct API access to hardware sensors for clinical monitoring (HRV, EEG-ready, Biometrics).
+* **Controlled Access:** Granular permission systems that allow professionals to deploy deep-intervention tools while maintaining safety boundaries.
+* **Flexible Margins:** A system designed with "structural resistance"—flexible enough for innovation, but unbreakable in its ethical core.
+
+### 🧩 For the Human Need (Adaptive Sovereignty)
+* **Universal Neuro-Inclusion:** Native support for ASD, ADHD, and Anxiety profiles. 
+* **The Sensory Buffer:** Hardware-level adjustment of the environment to prevent cognitive overload.
+* **Master Agent:** A private, local intelligence that acts as a cognitive prosthesis, translating the world into a manageable experience.
 
 ---
 
-## 🛠️ Tech Stack (Target)
-* **Architecture:** ARM v8/v9 (Focus: Snapdragon 8 Gen 1+ / Dimensity 9000+).
-* **AI Engine:** Hardware-accelerated local inference (ExecuTorch / Llama.cpp).
-* **Graphics:** Ray Tracing cores for UI rendering and signal processing.
-* **Kernel:** Minimalist Linux / AOSP-Base.
+## 🛡️ Conscious Mass Control / Control Consciente
+Cortex OS is **Self-Governed**. We don't believe in centralized restrictions, but in **Academic Safeguards**:
+* **The "Tear-Resistant" Framework:** The system provides the tools to push hardware to its limits, but the Ethical Nodes (Universities) set the safe operating parameters for human health.
+* **Community Audited:** Every line of code is open. The "mass" controls the "product".
 
 ---
 
-## 🏛️ Governance / Gobernanza
-The ethical roadmap is overseen by a federated network of **University Nodes**. Academic institutions act as auditors of transparency and psychological safety.
-
-*Actualmente buscando Nodos Fundadores en facultades de Psicología e Ingeniería.*
+## 🛠️ Technical Pillars (ARM / Snapdragon Target)
+* **Neural Sovereignty:** 100% Local AI Inference.
+* **Ray Tracing for Life:** Utilizing GPU cores for 3D spatial audio and sensory regulation.
+* **High-Fidelity Core:** Direct-to-DAC audio path for therapeutic and audiophile use.
+* 
