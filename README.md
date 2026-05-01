@@ -51,15 +51,15 @@ Our architecture allows for specialized "Operational Profiles" that can be toggl
 
 ---
 
-> "The system is the foundation; the ethics are the law; the human is the purpose."
-
----
-"mermaid"
+```mermaid
 graph TD
-    A[User Intent / Biometric Sensors] --> B{Master Agent Core}
-    B --> C[NPU Local Inference]
-    C --> D{Ethical Court Filter}
-    D -- Violation --> E[Friction/Alert Layer]
-    D -- Safe --> F[Direct Hardware Execution]
-    F --> G[Sensory Regulation / Task Mastery]
-    E --> G
+A[User Intent / Biometric Sensors] --> B{Master Agent Core}
+B --> C[NPU Local Inference]
+C --> D{Ethical Court Filter}
+D -- Violation --> E[Friction/Alert Layer]
+D -- Safe --> F[Direct Hardware Execution]
+F --> G[Sensory Regulation / Task Mastery]
+E --> G
+```
+
+> "The system is the foundation; the ethics are the law; the human is the purpose."
