@@ -1,46 +1,49 @@
 # 🧠 Cortex OS Protocol
-### Unleashing the Silicon. Protecting the Soul.
+### The Sovereign AI-Agent OS: Where the Agent is the System.
 
-**Cortex OS** is not a mobile operating system; it is a **Sovereign Neural Interface**. It is the bridge between the raw, untapped power of modern ARM hardware and the delicate complexity of the human psyche. 
-
-Designed for everyone—from the extreme power-user to the neurodivergent individual—Cortex OS scales its capabilities to meet the user where they are, without ever compromising their cognitive integrity.
+**Cortex OS** no es un sistema operativo tradicional basado en aplicaciones; es un **Orquestador Neural Autónomo**. Hemos reemplazado la interfaz convencional por un **Agente Maestro (Acólito)** que reside directamente en el silicio (NPU), gestionando la potencia bruta del hardware para servir exclusivamente a la soberanía, la salud y el rendimiento del ser humano.
 
 ---
 
-## 🇪🇸 La Visión: Poder con Propósito (Spanish)
-Cortex OS nace para romper las cadenas del software comercial. Es un sistema diseñado para masificar el acceso al potencial total del hardware, pero controlado conscientemente por la misma comunidad. 
-
-Aquí, la libertad no es caos: es la capacidad de exprimir cada transistor del dispositivo bajo un marco de ética clínica y bienestar humano. Es el equilibrio perfecto entre la **necesidad primaria del usuario** y los **instrumentos avanzados del profesional**.
+## 🇪🇸 La Visión: El Agente como Soberano (Spanish)
+En Cortex OS, la IA no es una función adicional; **la IA es el sistema**. El "Acólito" actúa como una extensión del sistema nervioso del usuario, traduciendo la complejidad del hardware ARM en bienestar clínico y potencia de élite. Es un sistema diseñado para ser masificado, pero gobernado conscientemente por la masa a través de nodos éticos universitarios.
 
 ---
 
-## 💎 The Spectrum of Power / El Espectro de Poder
+## ⚡ Pilares del Protocolo / Core Pillars
 
-### 🚀 For the Power-User (Freedom without Chains)
-* **Direct Silicon Access:** Total control over Ray Tracing cores, NPU, and High-Fidelity DACs. 
-* **Zero-Throttling Policy:** The hardware works for you, not for the manufacturer's cloud. 
-* **Bare Metal Performance:** Elimination of bloatware to allow real-time processing of massive datasets or high-end emulation.
+### 1. El Agente Maestro (The Orchestrator)
+* **Soberanía Total:** El Agente opera 100% de forma local (Edge AI). Tus intenciones, datos y procesos nunca salen del dispositivo.
+* **Gestión de Intenciones:** Olvida las aplicaciones. Tú comunicas una necesidad y el Agente coordina el hardware (CPU/GPU/NPU) para ejecutar la "Capacidad" requerida en tiempo real.
+* **Acólito de Bienestar:** Un sistema que no te explota, sino que te protege de patrones adictivos y sobrecarga cognitiva.
 
-### 🔬 For the Professional (Clinical Precision)
-* **Neurofeedback Ready:** Direct API access to hardware sensors for clinical monitoring (HRV, EEG-ready, Biometrics).
-* **Controlled Access:** Granular permission systems that allow professionals to deploy deep-intervention tools while maintaining safety boundaries.
-* **Flexible Margins:** A system designed with "structural resistance"—flexible enough for innovation, but unbreakable in its ethical core.
-
-### 🧩 For the Human Need (Adaptive Sovereignty)
-* **Universal Neuro-Inclusion:** Native support for ASD, ADHD, and Anxiety profiles. 
-* **The Sensory Buffer:** Hardware-level adjustment of the environment to prevent cognitive overload.
-* **Master Agent:** A private, local intelligence that acts as a cognitive prosthesis, translating the world into a manageable experience.
+### 2. Liberación del Silicio (Silicon Power)
+* **Acceso Directo al NPU:** Inferencia de IA de alta velocidad sin latencia ni dependencia de la nube.
+* **Ray Tracing para la Vida:** Uso de núcleos de gráficos avanzados para modelado de audio espacial 3D y visualización de datos biométricos complejos.
+* **Fidelidad Absoluta:** Acceso sin restricciones a los DACs de audio para terapias sonoras y uso profesional.
 
 ---
 
-## 🛡️ Conscious Mass Control / Control Consciente
-Cortex OS is **Self-Governed**. We don't believe in centralized restrictions, but in **Academic Safeguards**:
-* **The "Tear-Resistant" Framework:** The system provides the tools to push hardware to its limits, but the Ethical Nodes (Universities) set the safe operating parameters for human health.
-* **Community Audited:** Every line of code is open. The "mass" controls the "product".
+## 🧩 Capacidades Clínicas y Neurodivergencia
+Cortex OS es el primer protocolo que adapta su arquitectura a perfiles cognitivos diversos, integrando la psicología clínica en el Kernel.
+
+* **Soporte TEA (Espectro Autista):**
+    * **Sensory Buffer Mode:** El Agente simplifica la interfaz y atenúa estímulos sensoriales del hardware basándose en el entorno.
+    * **Traductor de Pragmática:** Procesamiento de lenguaje natural local para decodificar subtextos y sarcasmos en la comunicación.
+* **Regulación de Ansiedad:**
+    * **Vagus Nerve Tuning:** Monitoreo de HRV en tiempo real para activar protocolos de respiración y frecuencias sonoras de alta fidelidad.
+* **Control de Impulsos:** Fricción ética integrada para prevenir conductas compulsivas digitales.
 
 ---
 
-## 🛠️ Technical Pillars (ARM / Snapdragon Target)
-* **Neural Sovereignty:** 100% Local AI Inference.
-* **Ray Tracing for Life:** Utilizing GPU cores for 3D spatial audio and sensory regulation.
-* **High-Fidelity Core:** Direct-to-DAC audio path for therapeutic and audiophile use.
+## 🏛️ Gobernanza y Ética (Humanly Governed)
+El potencial total del hardware es peligroso sin un marco ético. Por ello, Cortex OS establece **Márgenes Flexibles pero Resistentes**:
+* **Nodos Universitarios:** La validación ética reside en facultades de Psicología e Ingeniería.
+* **Código Abierto (GPL-3.0):** La transparencia es nuestra ley física. El control es de la comunidad, auditado por la ciencia.
+
+---
+
+## 🛠️ Tech Stack
+* **Target:** ARM v8/v9 (Snapdragon 8 Gen 1+ / Dimensity 9000+).
+* **AI Engine:** Local LLM Inference (ExecuTorch / Llama.cpp).
+* **Interface:** Sovereign Neural Interface (No App-Grid).
