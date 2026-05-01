@@ -44,4 +44,3 @@ Cortex OS is **Self-Governed**. We don't believe in centralized restrictions, bu
 * **Neural Sovereignty:** 100% Local AI Inference.
 * **Ray Tracing for Life:** Utilizing GPU cores for 3D spatial audio and sensory regulation.
 * **High-Fidelity Core:** Direct-to-DAC audio path for therapeutic and audiophile use.
-* 
