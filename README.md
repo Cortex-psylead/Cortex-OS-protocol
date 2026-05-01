@@ -54,7 +54,7 @@ Our architecture allows for specialized "Operational Profiles" that can be toggl
 > "The system is the foundation; the ethics are the law; the human is the purpose."
 
 ---
-
+"mermaid"
 graph TD
     A[User Intent / Biometric Sensors] --> B{Master Agent Core}
     B --> C[NPU Local Inference]
