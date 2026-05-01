@@ -1,10 +1,17 @@
-# 🤝 Join the Revolution
+# Contributing to Cortex OS 🤝
 
-We are looking for pioneers in the following fields:
+First off, thank you for considering contributing to Cortex OS! We are building a system where human sovereignty and clinical health are the core of the kernel.
 
-* **Kernel & Low-Level Engineers:** Experience with ARM64, Snapdragon optimization, and NPU acceleration.
-* **AI Researchers:** Optimization of LLMs (quantization) for mobile hardware.
-* **Psychologists & Neuroscientists:** Defining the metrics for cognitive load and healthy digital environments.
-* **UI/UX Visionaries:** Designing a "Sovereign Interface" that doesn't rely on icons or app-grids.
+## 🧠 Who are we looking for?
+* **Clinical Psychologists & Neuroscientists:** To define and validate health protocols (ASD, Anxiety, Focus).
+* **Systems Engineers (Rust/C++):** To build the Ethical Sandbox and HAL (Hardware Abstraction Layer).
+* **AI/ML Researchers:** To optimize local LLM inference on ARM NPU/GPU.
+* **UI/UX Designers:** To rethink the "Intent-based" interface (no app-grid).
 
-**How to start:** Open a Discussion in this repository or propose an enhancement to the current Architecture.md.
+## 🛠️ How to Contribute
+1. **Explore the Issues:** Check our "Help Wanted" tags for current technical challenges.
+2. **Governance First:** All contributions must align with the `GOVERNANCE_BASE.md`. We prioritize user sovereignty over technical novelty.
+3. **Draft a Proposal:** If you have a new capability in mind, open a "Feature Request" issue first.
+
+## ⚖️ Our Code of Ethics
+Cortex OS is a sanctuary for user data. Any code that attempts to bypass local privacy or implement dark patterns will be rejected immediately.
