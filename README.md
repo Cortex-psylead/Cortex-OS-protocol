@@ -62,5 +62,6 @@ D -- Safe --> F[Direct Hardware Execution]
 F --> G[Sensory Regulation / Task Mastery]
 E --> G
 ```
+Note: This loop illustrates how user intent and biometric data are processed locally. Every action is validated by the Ethical Courts before reaching the hardware level, ensuring that the AI remains an acolyte, never a master.
 
 > "The system is the foundation; the ethics are the law; the human is the purpose."
