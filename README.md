@@ -50,6 +50,7 @@ Our architecture allows for specialized "Operational Profiles" that can be toggl
 * **License:** Open Source (GPL-3.0) — Transparency is our physical law.
 
 ---
+## 🛠️ System Workflow: The Sovereignty Loop
 
 ```mermaid
 graph TD
