@@ -130,7 +130,6 @@ as native system capabilities, not third-party apps.
 
 ## 🛠️ System Workflow: The Sovereignty Loop
 
-```mermaid
 ```
 [User Intent / Biometric Sensors]
             ↓
@@ -144,6 +143,7 @@ as native system capabilities, not third-party apps.
             ↓
   [User feedback → local model refinement]
 ```
+ 
 > *"The hardware is yours. The agent gives it back to you."*
 
 ---
