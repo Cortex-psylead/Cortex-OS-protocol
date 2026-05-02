@@ -131,17 +131,18 @@ as native system capabilities, not third-party apps.
 ## 🛠️ System Workflow: The Sovereignty Loop
 
 ```mermaid
+```
 [User Intent / Biometric Sensors]
-↓
-[Acolyte — Local NPU Inference]
-↓
-[Ethical Court Filter]
-↙ Violation        ↘ Safe
+            ↓
+    [Acolyte — Local NPU Inference]
+            ↓
+      [Ethical Court Filter]
+   ↙ Violation        ↘ Safe
 [Friction/Alert]  [Direct Hardware Execution]
-↓
-[Result delivered to user]
-↓
-[User feedback → local model refinement]
+            ↓
+  [Result delivered to user]
+            ↓
+  [User feedback → local model refinement]
 ```
 > *"The hardware is yours. The agent gives it back to you."*
 
