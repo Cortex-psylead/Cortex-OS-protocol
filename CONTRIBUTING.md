@@ -106,3 +106,97 @@ Issue tags to know:
 - `[security-patch]` — security fixes (fast-track process)
 
 ### Step 2 — Fork and branch
+git clone https://github.com/Cortex-psylead/Cortex-OS-protocol
+git checkout -b feature/your-feature-name
+
+Branch naming convention:
+- `feature/` — new capability or module
+- `fix/` — bug fix
+- `docs/` — documentation only
+- `research/` — research or protocol proposal
+
+### Step 3 — Follow the code principles
+
+**Rust** for hardware interaction and kernel-level components — memory
+safety is mandatory at this layer.
+
+**C++** for AI inference kernels where performance is critical.
+
+**Kotlin / Java** for Phase 1 AOSP system services.
+
+**Python** for capability module prototyping only — not for production
+system components.
+
+Every function that touches hardware must include:
+- A comment explaining which hardware resource it accesses
+- A reference to the GOVERNANCE-BASE.md principle it respects
+- An explicit user override path (the Kill-Switch must always exist)
+
+### Step 4 — Open a Pull Request
+
+PR title format: `[scope] Brief description`
+
+Examples:
+- `[audio] Implement HRTF spatial renderer via Oboe`
+- `[agent] Whisper.cpp intent recognition prototype`
+- `[docs] Update ARCHITECTURE.md Phase 2 milestones`
+
+Your PR description must include:
+- What it does
+- Which Issue it closes (`Closes #N`)
+- Which hardware it was tested on (if applicable)
+- Any open questions or known limitations
+
+---
+
+## ⚖️ Code of Conduct
+
+Cortex OS is built on respect — for users, for contributors, and for
+the communities this technology will serve.
+
+**We do not accept:**
+- Code that exfiltrates user data outside the device
+- Code that implements dark patterns or addictive mechanics
+- Code that hides hardware capabilities from the user
+- Disrespectful behavior toward any contributor
+
+**We actively welcome:**
+- Contributors from any country, background, or discipline
+- Non-technical contributions (research, translation, documentation)
+- Critical feedback and honest disagreement — done respectfully
+- Questions from people new to open source or hardware development
+
+Violations of this code of conduct should be reported by opening a
+private Issue or contacting the Protocol Steward directly.
+
+---
+
+## 🌍 Language Policy
+
+The official language of this repository is **English** for all
+technical documents, code comments, and Pull Requests.
+
+**Spanish** is welcome in Issues and community discussion — this project
+was born in Latin America and that community matters.
+
+Translations of core documents into other languages are a valued
+contribution and follow the standard PR process.
+
+---
+
+## 📋 Contribution Checklist
+
+Before submitting a PR, confirm:
+
+- [ ] I have read GOVERNANCE-BASE.md
+- [ ] My code does not exfiltrate any user data
+- [ ] My code includes a user override path where applicable
+- [ ] I have tested on real ARM hardware if possible
+- [ ] I have linked the relevant Issue
+- [ ] My branch follows the naming convention
+- [ ] My PR description answers: what, why, and tested on what
+
+---
+
+> *"The best contribution is the one that gives a person more control
+> over their own device than they had yesterday."*
