@@ -1,56 +1,72 @@
 # 🏗️ System Architecture: Cortex OS Protocol
 
-This document outlines the technical structure of Cortex OS, a sovereign AI-orchestrated environment. Our goal is to move away from the traditional "App-centric" model toward an "Intent-centric" model powered by local silicon.
+This document outlines the technical structure of Cortex OS: a sovereign,
+intent-centric operating system built on a Linux kernel, where a local AI
+agent — the Acolyte — replaces the traditional app-based paradigm.
+
+---
+
+## 🧭 Design Philosophy
+
+Cortex OS is not Android. It is not a launcher on top of Android.
+
+The long-term vision is a **Linux kernel-based mobile OS** where the AI agent
+is the system itself — not a feature, not an app, not a service. Every hardware
+resource (NPU, Ray Tracing cores, DSP, DAC, biometric sensors) is orchestrated
+by the Acolyte in response to user intent, under the supervision of open,
+university-governed Ethical Courts.
+
+The user does not open apps. The user declares an intention.
+The system delivers the result.
 
 ---
 
 ## 🛰️ High-Level Topology
 
-The architecture is divided into three fundamental layers that interact in real-time, ensuring that biometric data never leaves the device.
+Three fundamental layers interact in real time. Biometric and personal data
+never leave the device.
 
-### 1. Hardware Abstraction Layer (HAL) - "The Body"
-Cortex OS interacts directly with the **ARM v8/v9** architecture, prioritizing three specific components:
-* **NPU (Neural Processing Unit):** Dedicated 100% to the Master Agent's inference. No cloud-dependency.
-* **GPU (Ray Tracing Cores):** Re-purposed for sensory regulation. Using RT for real-time 3D spatial audio mapping and dynamic UI filtering.
-* **Biosensor Hub:** Low-latency access to heart rate variability (HRV), galvanic skin response (GSR), and environmental light/sound sensors.
+### 1. 🔩 Hardware Abstraction Layer (HAL) — *"The Body"*
 
-### 2. The Master Agent Core (The "Acolyte") - "The Mind"
-This is the central nervous system of the OS. It is built on a **Local LLM / SLM (Small Language Model)** optimized for mobile silicon (using `ExecuTorch` or `Llama.cpp`).
-* **Intent Orchestrator:** Instead of launching apps, the Agent identifies the user's intent and allocates hardware resources.
-* **Cognitive State Engine:** Analyzes sensor data to determine the user's mental load (Flow, Stress, Sensory Overload, or Fatigue).
-* **The Ethical Sandbox:** A validation sub-layer that cross-references every Agent decision with the `GOVERNANCE_BASE.md` rules.
+Direct interaction with **ARM v8/v9** architecture, prioritizing:
 
-### 3. Sovereign Neural Interface (SNI) - "The Senses"
-We have eliminated the "App Grid". The interface is a dynamic, adaptive environment.
-* **Adaptive UI:** The visual interface changes its complexity based on detected cognitive load.
-* **Sensory Buffer:** A hardware-level filter that modulates screen refresh rates (Hz), blue light, and audio frequencies to maintain user homeostasis.
+- **NPU (Neural Processing Unit):** 100% dedicated to local Acolyte inference.
+  No cloud dependency. No external calls.
+- **Ray Tracing Cores:** Repurposed for real-time 3D spatial audio mapping —
+  calculating acoustic reflections for user-defined virtual spaces.
+- **Hexagon DSP:** High-fidelity audio processing, instrument separation,
+  and frequency-based regulation protocols.
+- **High-Fidelity DAC:** Direct hardware output path, bypassing generic
+  Android audio stacks.
+- **Biosensor Hub:** Low-latency access to HRV, galvanic skin response (GSR),
+  and environmental light/sound sensors.
+
+### 2. 🤖 Master Agent Core (The Acolyte) — *"The Mind"*
+
+The central nervous system of the OS. Built on a local LLM/SLM optimized
+for mobile silicon.
+
+- **Intent Orchestrator:** Identifies user intent and allocates hardware
+  resources in real time — no app launch required.
+- **Cognitive State Engine:** Analyzes sensor data to determine user mental
+  load (Flow, Stress, Sensory Overload, Fatigue).
+- **Agentic Tool Layer:** Executes specialized sub-agents as slaves —
+  audio rendering, biometric monitoring, data management — each sandboxed
+  and auditable.
+- **Ethical Sandbox:** Every Acolyte decision is cross-referenced against
+  the `GOVERNANCE.md` ruleset before reaching hardware execution.
+
+### 3. 🖥️ Sovereign Neural Interface (SNI) — *"The Senses"*
+
+The traditional app grid is eliminated. The interface is dynamic and
+intent-driven.
+
+- **Adaptive UI:** Visual complexity adjusts based on detected cognitive load.
+- **Sensory Buffer:** Hardware-level filter modulating screen Hz, blue light,
+  and audio frequencies to maintain user homeostasis.
+- **Kill-Switch:** The user can override any Acolyte decision at any time.
+  Human sovereignty is non-negotiable.
 
 ---
 
-## 🔄 The Data Loop (Privacy by Design)
-
-1.  **Sensing:** The HAL collects environmental and biometric data.
-2.  **Inference:** The Master Agent processes this data locally via the NPU.
-3.  **Action:** The Agent suggests or applies "Nudges" (frictions) or hardware adjustments.
-4.  **Feedback:** The user can override (Kill-Switch) or confirm the action, training the local model for better future alignment.
-
----
-
-## 🛠️ Tech Stack & Implementation
-
-* **Kernel:** Modified AOSP (Android Open Source Project) or Microkernel-based Linux.
-* **AI Engine:** Local inference using **GGUF / Quantized models** for Snapdragon 8 Gen 1+ or higher.
-* **Development Language:** Rust for memory-safe hardware interaction, C++ for high-performance AI kernels, and Python for clinical logic prototyping.
-* **Security:** TEE (Trusted Execution Environment) to encrypt the user's clinical profile.
-
----
-
-## 🛤️ Roadmap: Technical Milestones
-
-* **Phase 1 (Alpha):** Neural Sandbox. Running the Master Agent as a service on standard ARM devices to test "Intent-based" navigation.
-* **Phase 2 (Beta):** Hardware-level integration. Direct control of NPU for sensory regulation protocols (ASD/Anxiety).
-* **Phase 3 (Sovereignty):** Full OS deployment. Replacement of the traditional app-based multitasking with a unified Agent interface.
-
----
-
-> *"The future of computing is not an application we open, but an intelligence that understands our biological limits and expands our potential."*
+## 🔄 The Sovereignty Loop (Privacy by Design)
