@@ -71,17 +71,19 @@ intent-driven.
 
 ## 🔄 The Sovereignty Loop (Privacy by Design)
 
+```
 [User Intent / Biometric Sensors]
-↓
-[Acolyte — Local NPU Inference]
-↓
-[Ethical Court Filter]
-↙ Violation        ↘ Safe
+            ↓
+    [Acolyte — Local NPU Inference]
+            ↓
+      [Ethical Court Filter]
+   ↙ Violation        ↘ Safe
 [Friction/Alert]  [Direct Hardware Execution]
-↓
-[Result delivered to user]
-↓
-[User feedback → local model refinement]
+            ↓
+  [Result delivered to user]
+            ↓
+  [User feedback → local model refinement]
+```
 
 
 All processing is local. All data stays on device.
