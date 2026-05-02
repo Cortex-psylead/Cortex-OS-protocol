@@ -43,7 +43,7 @@ exactly who we are looking for:
 - Spatial audio / ambisonics / HRTF processing
 - libmysofa or Resonance Audio
 
-Reference device available for testing: **Xiaomi 12 Pro (Snapdragon 8 Gen 1)**
+Reference device available for testing: **Xiaomi 12 Pro (Snapdragon 8 Gen 1+)**
 
 ---
 
