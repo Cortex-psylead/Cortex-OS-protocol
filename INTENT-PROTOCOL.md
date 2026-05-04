@@ -159,7 +159,9 @@ reaching the Capability Router:
 This schema is the contract between the Acolyte and every
 capability module. Any module that receives an intent receives
 this structure — nothing more, nothing less.
-⚖️ Partial Intent Rule
+
+## ⚖️ Partial Intent Rule
+
 If an intent contains both cleared and blocked components,
 the Acolyte executes the cleared portion and explicitly
 explains why the blocked portion was not executed.
@@ -183,7 +185,9 @@ Acolyte response:
 The blocked_components field in the schema records exactly
 which parts of the intent were blocked and why — for full
 auditability.
-🗺️ Capability Routing
+
+## 🗺️ Capability Routing
+
 After ethical clearance, the Acolyte routes the intent to
 the correct hardware capability:
 Intent action
@@ -207,7 +211,9 @@ Hexagon DSP
 monitor_hrv
 Biometric Monitor
 Biosensor Hub + NPU
-🔁 Intent Resolution Examples
+
+## 🔁 Intent Resolution Examples
+
 Example 1 — Full spatial audio intent
 
 Input: "Play this song like I'm in a small jazz club"
@@ -286,7 +292,8 @@ blocked_components: [
   }
 ]
 
-⏱️ Performance Targets
+## ⏱️ Performance Targets
+
 The pipeline latency from raw input to hardware execution:
 Modality
 Phase 1 target
@@ -306,7 +313,8 @@ utterance length). Phase 2 optimization will address
 this via smaller distilled transcription models and
 NPU-specific quantization.
 
-🧠 Why This Matters Clinically
+## 🧠 Why This Matters Clinically
+
 The intent resolution layer is where Cortex OS diverges most
 sharply from traditional voice assistants.
 Siri, Google Assistant, and Alexa are command executors —
@@ -323,7 +331,8 @@ rather than immediate execution.
 This is the intersection of polyvagal theory and systems
 architecture that makes Cortex OS clinically differentiated.
 
-🛠️ Implementation Notes for Contributors
+## 🛠️ Implementation Notes for Contributors
+
 Phase 1 implementation stack:
 Intent transcription: Whisper.cpp (local, ARM-optimized)
 Intent parsing: Llama 3.2 1B or Phi-3 Mini with structured
