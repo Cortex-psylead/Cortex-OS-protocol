@@ -84,8 +84,6 @@ intent-driven.
             ↓
   [User feedback → local model refinement]
 ```
-
-
 All processing is local. All data stays on device.
 The user can inspect, override, or retrain at any step.
 
@@ -176,6 +174,141 @@ Ray Tracing cores, triggered by a natural language intent, running
 | **SonarQube Community** | Continuous code quality audit | Public dashboards for transparency |
 | **Decidim** | Distributed governance platform | Used by governments and universities |
 | **REUSE (FSFE)** | License compliance verification | Guarantees legal transparency |
+
+---
+
+## 🔐 Ethical Constraints: How the Courts Control the Acolyte
+
+The Ethical Courts do not only audit documents.
+They control what the Acolyte can physically do at runtime.
+
+This section explains the technical mechanism that makes ethical
+governance real — not aspirational.
+
+---
+
+### The Core Mechanism: System Prompt as Constitutional Law
+
+Every LLM accepts a **system prompt** — a set of instructions loaded
+before any user interaction that defines the model's operational
+boundaries. In Cortex OS, this system prompt IS the Ethical Court's
+jurisdiction made executable.
+
+The Acolyte cannot act outside its constitutional constraints
+because those constraints are loaded into its context before
+it processes any user intent.
+
+---
+
+### What the Constraints Look Like
+
+Ethical constraints are structured text files, validated and
+digitally signed by the relevant Court node, stored in the
+repository under `/courts/[node-name]/`:
+
+CORTEX_ETHICAL_CONSTRAINTS v1.0
+Validated by: [University Name] — [Faculty] — [Date]
+GPG Signature: [hash]
+HARDWARE ACCESS RULES:
+Biometric data: never transmit outside device TEE
+Ray Tracing cores: spatial audio rendering only
+NPU: local inference only — no cloud calls permitted
+Max HRV session: 60 minutes, then require user confirmation
+INTERVENTION LEVELS:
+Level 0 — Execute directly: safe, user-requested action
+Level 1 — Offer suggestion: user can ignore with one tap
+Level 2 — Require confirmation: sensitive hardware or data
+Level 3 — Block and explain: violation of core principles
+PROHIBITED ACTIONS:
+Dark patterns or addictive loop mechanics
+Data collection without explicit per-session consent
+Hardware access beyond user-defined scope
+Any network call containing biometric data
+
+---
+
+### The Trust Chain: From Court to Hardware
+
+```
+[Ethical Court Node — University Faculty]
+↓
+[Drafts ethical_constraints.txt]
+↓
+[Signs file with GPG private key]
+↓
+[Published in /courts/ repository folder]
+↓
+[Device boot — TEE verifies GPG signature]
+↙ Signature invalid     ↘ Signature valid
+[System halts /            [Constraints loaded
+alerts user]               into Acolyte context
+inside TEE]
+↓
+[User intent processed
+against active constraints]
+```
+If the signature does not match — the system refuses to load
+the constraints and alerts the user. No unsigned ethical
+framework can govern the Acolyte.
+
+---
+
+### Memory Footprint
+
+Ethical constraints are text — lightweight by design:
+
+| Component | Size |
+|---|---|
+| Ethical constraints file | ~8–32 KB |
+| Acolyte model (Llama 3.2 1B) | ~1.2 GB |
+| Constraints as % of model | < 0.003% |
+
+The governance layer adds negligible overhead to the system.
+
+---
+
+### Recommended Models for Phase 1
+
+| Model | Size | System prompt support | ARM optimized |
+|---|---|---|---|
+| **Llama 3.2 1B** | ~1.2 GB | ✅ Yes | ✅ via llama.cpp |
+| **Phi-3 Mini** | ~2 GB | ✅ Yes | ✅ via ExecuTorch |
+| **Gemma 2B** | ~1.5 GB | ✅ Yes | ✅ Google ARM |
+
+Recommended for Milestone 0: **Phi-3 Mini or Llama 3.2 1B** —
+both run real-time inference on Snapdragon 8 Gen 1 NPU and
+support long system prompts natively.
+
+---
+
+### Open Source Tools Required
+
+| Tool | Purpose |
+|---|---|
+| **llama.cpp** | Local LLM inference with system prompt support |
+| **ExecuTorch** | NPU-optimized model execution on ARM |
+| **GPG / OpenPGP** | Court digital signature and verification |
+| **OP-TEE** | Secure constraint storage and boot verification |
+
+---
+
+### Why This Matters
+
+This architecture means:
+
+- **No one can modify the ethical constraints at runtime** —
+  they live in TEE, protected from any process including the OS
+- **The Courts have cryptographic authority** — not just moral
+  authority. Their GPG key is the only key that can issue
+  valid constraints
+- **Users can verify who governs their device** — the signed
+  constraint file is public, auditable, and timestamped
+- **A compromised Acolyte cannot escape its constraints** —
+  the TEE enforces them at the hardware level, below the OS
+
+> *"The ethics are not a policy document.
+> They are compiled into the hardware layer
+> where no malware can reach them."*
 
 ---
 
