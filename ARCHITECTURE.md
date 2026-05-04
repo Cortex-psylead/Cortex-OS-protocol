@@ -176,6 +176,12 @@ Ray Tracing cores, triggered by a natural language intent, running
 | **REUSE (FSFE)** | License compliance verification | Guarantees legal transparency |
 
 ---
+### Clinical Data Standards
+| Standard | Purpose | Why chosen |
+|---|---|---|
+| **BIDS-Physio** | Local physiological data structure | Universal neuroscience standard — interoperable with global research community |
+| **BIDS-EEG** | Future EEG/biosignal extension | Extensible to broader neurological data in Phase 3 |
+| **OpenEMR data model** | Institutional integration reference | Phase 3 bridge to clinical institutions |
 
 ## 🔐 Ethical Constraints: How the Courts Control the Acolyte
 
