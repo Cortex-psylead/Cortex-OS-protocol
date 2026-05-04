@@ -149,8 +149,8 @@ reaching the Capability Router:
   "ethical_clearance": {
     "status": "cleared | blocked | level_1 | level_2 | level_3 | partial",
     "constraint_version": "v1.0",
-    "active_court_nodes": ["USC-Engineering-2026"],
-    "primary_node": "USC-Engineering-2026",
+    "active_court_nodes": ["[university-name]-[faculty]-[year]"],
+"primary_node": "[university-name]-[faculty]-[year]",
     "blocked_components": []
   },
   "execution_target": "ray_tracing_audio_renderer"
