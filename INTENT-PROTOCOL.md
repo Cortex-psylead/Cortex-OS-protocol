@@ -351,9 +351,9 @@ The Acolyte must never silently fail — every intent
 receives a response, even if that response is a
 clear explanation of why execution was not possible
 
-"The difference between a command and an intention
+> *"The difference between a command and an intention
 is the difference between a calculator and a colleague.
-One executes. The other understands."
+One executes. The other understands."*
 
       
 
