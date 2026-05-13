@@ -1,110 +1,49 @@
-# 🤝 Code of Conduct: Cortex OS Protocol
+# 🤝 Code of Conduct: Cortex Protocol
+### Commitment to Ethical Sovereignty and Collaborative Integrity
 
-## Our Commitment
+## Our Commitment / Nuestro Compromiso
 
-Cortex OS Protocol exists to give people real sovereignty over their
-own hardware — and that principle extends to how we treat each other
-in this community.
+**[English]** Cortex Protocol exists to restore real sovereignty to individuals over their hardware and cognitive privacy. This commitment extends to our community. we are dedicated to providing a respectful, constructive, and harassment-free experience for everyone, regardless of background, experience, or identity. We build technology that touches the human nervous system; therefore, our collaboration must reflect the same care we embed in our code.
 
-We are committed to making participation in this project a respectful,
-constructive, and harassment-free experience for everyone, regardless
-of age, body size, disability, ethnicity, gender identity and expression,
-level of experience, nationality, personal appearance, race, religion,
-or sexual identity and orientation.
-
-This is not a corporate policy document. It is a shared agreement
-between people who believe technology should serve humanity — and
-that starts with how we treat the humans building it.
+**[Español]** El Protocolo Cortex existe para devolver la soberanía real a las personas sobre su hardware y su privacidad cognitiva. Este compromiso se extiende a nuestra comunidad. Nos dedicamos a brindar una experiencia respetuosa, constructiva y libre de acoso para todos, independientemente de su origen, experiencia o identidad. Construimos tecnología que interactúa con el sistema nervioso humano; por lo tanto, nuestra colaboración debe reflejar el mismo cuidado que integramos en nuestro código.
 
 ---
 
-## 🌱 What We Encourage
+## 🌱 Pillars of Collaboration
 
-- **Honest, constructive disagreement** — challenge ideas, not people
-- **Patient explanation** — not everyone has the same background;
-  a question is never stupid if it is asked in good faith
-- **Credit where it is due** — acknowledge others' contributions
-  explicitly and generously
-- **Interdisciplinary respect** — engineers respect clinical knowledge;
-  clinicians respect technical constraints; everyone respects the user
-- **Transparency** — say what you mean, document what you decide,
-  explain why you changed something
-- **Questions from newcomers** — every expert was once a beginner;
-  we welcome people new to open source, to clinical frameworks,
-  or to hardware development
+- **Interdisciplinary Respect:** Engineers, clinical psychologists, and researchers are equal partners. Clinical evidence is as critical as technical performance.
+- **Sovereignty First:** Every contribution must prioritize user autonomy and local execution over commercial or cloud-based interests.
+- **Transparency & Auditability:** We document not just *what* we build, but *why* we build it. Decisions must be open to audit by the Governance Nodes.
+- **Intellectual Generosity:** We credit all contributors and welcome newcomers to the fields of clinical tech and open governance.
 
 ---
 
-## 🚫 What We Do Not Accept
+## 🚫 Unacceptable Behavior
 
-- Harassment, intimidation, or personal attacks in any form
-- Dismissing contributions because of someone's credentials,
-  country, or background
-- Code or documentation that violates user privacy or sovereignty
-- Introducing proprietary dependencies without explicit community consent
-- Claiming authorship of others' work
-- Using the project's clinical frameworks to manipulate, exploit,
-  or harm users
-- Sustained disruption of community discussions
+- **Clinical Exploitation:** Using the project’s frameworks to manipulate, exploit, or create addictive patterns for users.
+- **Privacy Violation:** Proposing or implementing features that bypass the **Sovereignty Abstraction Layer (SAL)** or compromise local data.
+- **Scientific Misrepresentation:** Fabricating or distorting clinical data to justify hardware interventions.
+- **Harassment:** Personal attacks, intimidation, or dismissal of contributions based on an individual's background or credentials.
 
 ---
 
-## ⚖️ Scope
+## ⚖️ Governance & Enforcement
 
-This Code of Conduct applies to all project spaces — GitHub Issues,
-Pull Requests, Discussions, and any other space where Cortex OS
-community members interact in their capacity as contributors.
+This Code of Conduct is overseen by the **Protocol Stewards** in consultation with the **Ethical Governance Nodes**. 
 
-It also applies when someone is representing the project in public
-spaces — conferences, academic events, social media, or direct
-outreach on behalf of Cortex OS.
+1. **Scope:** Applies to all project spaces (GitHub, discussions, and external representations of the protocol).
+2. **Reporting:** Violations should be reported via GitHub Security Advisories or directly to the Protocol Steward (@Cortex-psylead).
+3. **Enforcement:** Actions range from private warnings and temporary suspension to permanent removal from the protocol ecosystem for severe ethical breaches.
 
 ---
 
-## 🚨 Reporting
+## 🌍 The Standard of the Future
 
-If you experience or witness behavior that violates this Code of Conduct:
+**[English]** A community that does not respect its members cannot build a system that respects its users. The values we practice here are the prototype of the ethical world we are building through the Cortex Protocol.
 
-1. Open a **private** GitHub Security Advisory if the situation
-   involves sensitive information
-2. Or contact the Protocol Steward directly via GitHub
-   (@Cortex-psylead)
-
-All reports will be reviewed within 72 hours. The identity of the
-person reporting will be kept confidential.
+**[Español]** Una comunidad que no respeta a sus miembros no puede construir un sistema que respete a sus usuarios. Los valores que practicamos aquí son el prototipo del mundo ético que estamos construyendo a través del Protocolo Cortex.
 
 ---
 
-## 📋 Enforcement
-
-Violations will result in one of the following, depending on severity:
-
-**1. Written warning** — a private explanation of why the behavior
-was inappropriate and what is expected going forward.
-
-**2. Temporary suspension** — temporary removal from community spaces,
-with conditions for return clearly communicated.
-
-**3. Permanent removal** — for repeated or severe violations, permanent
-exclusion from all project spaces.
-
-Decisions are made by the Protocol Steward in consultation with
-active maintainers. Ethical Court nodes may be consulted for
-violations involving clinical or ethical principles.
-
----
-
-## 🌍 Our Standard
-
-We build technology that touches the human nervous system.
-That requires us to be thoughtful about how we treat each other —
-because the values we practice in this community are the same values
-we embed in the system we build.
-
-A community that does not respect its members cannot build a system
-that respects its users.
-
----
-
-> *"The way we treat each other here is a prototype
-> of the world we are trying to build."*
+> *"The way we treat each other is a prototype of the world we are trying to build."*
+> 
