@@ -59,7 +59,7 @@ For many neurodivergent individuals, sudden environmental changes (loud noises, 
 3.  **Ethical Friction & Action:** 
     *   If a noise spike is detected, the protocol triggers automated noise attenuation in connected headphones.
     *   If blue light levels exceed clinical safety thresholds at night, the protocol forces a "Warm Shift" on the display.
-4.  **Clinical Audit:** The **University Ethical Court** (Universidad Santiago de Cali) defines the decibel and frequency thresholds that trigger these actions, ensuring they are based on clinical evidence, not commercial algorithms.
+4.  **Clinical Audit:** The **University Ethical Court** (university)  defines the decibel and frequency thresholds that trigger these actions, ensuring they are based on clinical evidence, not commercial algorithms.
 
 ### Expected Result:
 A functional module where the hardware reacts to the user's sensory needs in real-time, without any data leaving the device, and with a configuration signed by a health professional.
