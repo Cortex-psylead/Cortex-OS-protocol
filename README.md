@@ -45,8 +45,25 @@ Cortex introduces the **Sovereignty Abstraction Layer (SAL)**, ensuring hardware
 *   **💻 Developers (Android/PC/C++):** To build the SDK that makes this protocol universal.
 *   **🤝 Legal Auditors:** To align the protocol with international frameworks like the **EU AI Act**.
 
-## 🎯 Milestone 0: The Universal Standard
-Demonstrate that the **Cortex Protocol** can certify a spatial audio module that runs locally on both ARM mobile devices and x86 architectures, authorized by a digital university signature.
+## 🎯 Milestone 0: The Sensory Buffer (Proof of Concept)
+**Goal:** Demonstrate the protocol's ability to protect the user's cognitive state by intercepting environmental stimuli and processing them locally.
+
+### The Use Case: ASD/TEA Sensory Protection
+For many neurodivergent individuals, sudden environmental changes (loud noises, high-frequency lights) can trigger sensory overload. Cortex Protocol uses the device's hardware to create an automated "Sensory Shield."
+
+
+
+### Technical Execution:
+1.  **Hardware Interception:** The protocol accesses the device's microphone and ambient light sensors via the **SAL (Sovereignty Abstraction Layer)**.
+2.  **Local Inference:** Using the mobile NPU (Snapdragon) or Desktop GPU (GTX o RTX), the **Acolyte** analyzes the environment 100% locally.
+3.  **Ethical Friction & Action:** 
+    *   If a noise spike is detected, the protocol triggers automated noise attenuation in connected headphones.
+    *   If blue light levels exceed clinical safety thresholds at night, the protocol forces a "Warm Shift" on the display.
+4.  **Clinical Audit:** The **University Ethical Court** (Universidad Santiago de Cali) defines the decibel and frequency thresholds that trigger these actions, ensuring they are based on clinical evidence, not commercial algorithms.
+
+### Expected Result:
+A functional module where the hardware reacts to the user's sensory needs in real-time, without any data leaving the device, and with a configuration signed by a health professional.
+
 
 ---
 **"The hardware is yours. The protocol gives it back to you."**
