@@ -1,4 +1,5 @@
 # 🧠 Clinical-Technical Bridge: Evidence-Based Protocols for Cortex Protocol
+
 This document establishes the scientific foundation for the **Clinical Capability Modules (CCM)** within the Cortex Protocol. It serves as the official reference for **Ethical Governance Nodes** to validate and sign the digital constraints that govern local AI agents.
 Every agent seeking "Cortex-Certified" status must implement the hardware-agnostic boundaries defined here to ensure the user's **Cognitive Sovereignty** across any computing environment.
 ---
