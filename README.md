@@ -4,10 +4,13 @@
 
 ---
 
-## 🇪🇸 La Visión: De la Frustración a la Soberanía
-Cortex nació de una pregunta técnica sobre el hardware infrautilizado, pero su propósito evolucionó hacia la **soberanía cognitiva**. Hoy, la Inteligencia Artificial actúa como una "caja negra" que explota la atención del usuario. 
+## 🌐 About / Acerca de
 
-**Cortex Protocol** es la infraestructura que devuelve el control al individuo, permitiendo que cualquier dispositivo —móvil, PC o servidor— actúe bajo la supervisión de **Comités de Ética Universitarios**. No construimos solo un sistema operativo; construimos la **Constitución Digital** del futuro, donde el psicólogo clínico es el garante de la seguridad tecnológica.
+**[English]**  
+Cortex is a universal open-source protocol that restores **Sovereignty** to the user by granting direct control over hardware resources. By shifting the power from corporate clouds to local AI agents governed by university-led clinical frameworks, Cortex ensures that technology serves human well-being with absolute privacy. Sovereignty is not just a technical feature; it is the fundamental requirement for ethical, secure, and transparent computing.
+
+**[Español]**  
+Cortex es un protocolo universal de código abierto que devuelve la **Soberanía** al usuario al otorgarle el control directo sobre los recursos de su hardware. Al trasladar el poder de las nubes corporativas a agentes de IA locales regidos por marcos clínicos universitarios, Cortex asegura que la tecnología sirva al bienestar humano con absoluta privacidad. La soberanía no es solo una característica técnica; es el requisito fundamental para una informática ética, segura y transparente.
 
 ---
 
@@ -26,44 +29,24 @@ Cortex has evolved from a specific OS to a **Universal Governance Protocol** dep
 2.  **🛡️ Sovereign Inference (Edge AI):** 
     Data processing is 100% local. The protocol mandates that data remains on the device, utilizing available hardware like mobile NPUs or desktop GPUs (e.g., **GTX 1050**).
 3.  **🧩 Modular Clinical Validation:** 
-    Needs such as Neurodivergence (ASD/TEA), Audiophilia, or High-Performance workflows are treated as certified modules, not invasive third-party apps.
+    Human-centric needs are treated as certified modules, not invasive third-party apps.
 
 ## 🛠️ System Architecture: The SAL Layer
 Cortex introduces the **Sovereignty Abstraction Layer (SAL)**, ensuring hardware independence:
-*   **Cortex-Mobile (ARM):** Optimized for Snapdragon/Dimensity NPUs and low-latency mobile sensing.
-*   **Cortex-Desktop (x86/GPU):** Leverages desktop power for complex clinical simulations and high-fidelity processing.
+*   **Cortex-Mobile (ARM):** Optimized for mobile NPUs and low-latency sensing.
+*   **Cortex-Desktop (x86/GPU):** Leverages desktop power (GTX 1050 and beyond) for complex clinical simulations.
 *   **Cortex-Certified SDK:** A toolkit for developers to make their applications "Sovereign" by adhering to ethical auditor rules.
 
-## 🔬 Featured Modules (Proof of Concept)
-*   **🛡️ Neurodivergence Support (ASD/TEA):** Real-time sensory attenuation and pragmatic translation for social subtext.
-*   **🧘 Clinical Regulation:** Vagus nerve tuning via HRV monitoring and high-fidelity auditory protocols.
-*   **🎧 Audiophile Mode:** Using Ray Tracing cores to calculate real-time acoustic reflections for virtual spaces.
-
-## 🌍 Who We Are Looking For
-*   **🎓 University Researchers:** To lead Ethical Committees and validate clinical modules.
-*   **🧠 Psychologists & Social Workers:** To define the boundaries of digital mental health.
-*   **💻 Developers (Android/PC/C++):** To build the SDK that makes this protocol universal.
-*   **🤝 Legal Auditors:** To align the protocol with international frameworks like the **EU AI Act**.
-
-## 🎯 Milestone 0: The Sensory Buffer (Proof of Concept)
-**Goal:** Demonstrate the protocol's ability to protect the user's cognitive state by intercepting environmental stimuli and processing them locally.
-
-### The Use Case: ASD/TEA Sensory Protection
-For many neurodivergent individuals, sudden environmental changes (loud noises, high-frequency lights) can trigger sensory overload. Cortex Protocol uses the device's hardware to create an automated "Sensory Shield."
-
-
+## 🎯 Milestone 0: The Cognitive Shield (Universal PoC)
+**Goal:** Demonstrate the protocol's ability to intercept environmental stimuli and process them locally to protect the user's focus and mental integrity.
 
 ### Technical Execution:
-1.  **Hardware Interception:** The protocol accesses the device's microphone and ambient light sensors via the **SAL (Sovereignty Abstraction Layer)**.
-2.  **Local Inference:** Using the mobile NPU (Snapdragon) or Desktop GPU (GTX o RTX), the **Acolyte** analyzes the environment 100% locally.
-3.  **Ethical Friction & Action:** 
-    *   If a noise spike is detected, the protocol triggers automated noise attenuation in connected headphones.
-    *   If blue light levels exceed clinical safety thresholds at night, the protocol forces a "Warm Shift" on the display.
-4.  **Clinical Audit:** The **University Ethical Court** (university)  defines the decibel and frequency thresholds that trigger these actions, ensuring they are based on clinical evidence, not commercial algorithms.
-
-### Expected Result:
-A functional module where the hardware reacts to the user's sensory needs in real-time, without any data leaving the device, and with a configuration signed by a health professional.
-
+1.  **Hardware Interception:** The protocol accesses ambient sensors (Microphone, Light, Motion) via the **SAL**.
+2.  **Local Inference:** Utilizing local NPU/GPU power to analyze environmental load without external pings.
+3.  **Ethical Action:**
+    *   **Auditory Protection:** Automatic attenuation of high-stress frequencies based on clinical triggers.
+    *   **Visual Hygiene:** Real-time display adjustments (blue light, flicker) based on physiological safety thresholds.
+4.  **University Validation:** The **University Ethical Court** signs off on the thresholds, ensuring the hardware acts as a protective layer for the human mind.
 
 ---
 **"The hardware is yours. The protocol gives it back to you."**
