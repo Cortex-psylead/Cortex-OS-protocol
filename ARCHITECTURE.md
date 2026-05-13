@@ -1,42 +1,50 @@
-# 🏗️ System Architecture: Cortex Protocol
-### Universal Framework for Ethical Governance & Sovereign Computing
+# 🏗️ System Architecture: Cortex Protocol Framework
 
-This document defines the **Cortex Protocol**: a high-level governance layer that establishes ethical and clinical boundaries for local AI agents. Cortex is not an operating system, but a **set of rules and interfaces** that ensure technology remains a tool for human well-being.
-
----
-
-## 🧭 Design Philosophy: Governance over Execution
-
-The Cortex Protocol operates on the principle that **Clinical Ethics must precede Technical Execution**. 
-
-In the current landscape, AI agents operate in an ethical vacuum. Cortex fills this void by providing a **Digital Constitution**. The protocol does not dictate *how* an agent is built, but *within which margins* it must operate to be considered "Cortex-Certified."
-
-The core of the protocol is the **Clinical Capability Module (CCM)**: a set of rules defined by health professionals that the hardware must enforce at the local level.
+This document outlines the technical structure of the **Cortex Protocol**: a hardware-agnostic, intent-centric orchestration layer. It enables a local AI agent — the **Acolyte** — to manage hardware resources following strict clinical and ethical governance.
 
 ---
 
-## 🛰️ High-Level Topology: The Ethical Infrastructure
+## 🧭 Design Philosophy: From OS to Protocol
 
-Cortex establishes a trust chain between three fundamental domains:
+Cortex is not a traditional Operating System; it is a **Sovereign Abstraction Layer (SAL)**. 
 
-### 1. ⚖️ The Ethical Courts (The Sovereign Source)
-The governing body composed of university faculties (e.g., **universities**).
-- **Clinical Frameworks:** Psychologists define the safety boundaries (e.g., sensory thresholds, cognitive load limits).
-- **Cryptographic Authority:** Every ethical ruleset is digitally signed by the University. Without this signature, a module cannot claim Cortex compliance.
+The vision is a protocol that sits between the hardware and the user. Whether running on a mobile device, a high-end workstation, or a local server, the Acolyte orchestrates resources (NPU, GPU, DSP, biometric sensors) in response to user intent, under the supervision of independent **Ethical Governance Nodes**.
 
-### 2. 🛡️ The Sovereignty Abstraction Layer (SAL)
-The technical interface that translates clinical rules into hardware constraints.
-- **Hardware Agnosticism:** The SAL ensures that ethical rules are enforced regardless of the processor (**ARM, x86, NPU, or GPU**).
-- **Local Enforcement:** The protocol mandates that all processing related to the user's "Digital Self" occurs within the device (e.g., on a **GTX 1050** or mobile NPU).
-
-### 3. 🤖 The Certified Agent (The Executor)
-Any local AI agent (The Acolyte) that implements the Cortex SDK.
-- **Intent Filtering:** Before executing any user request, the agent must validate the intent against the active Clinical Capability Modules.
-- **Privacy by Law:** The agent is physically prohibited by the protocol from transmitting raw biometric or cognitive data to external servers.
+The user does not "open apps." The user declares an **Intention**. 
+The Protocol delivers the **Result** while ensuring **Cognitive Sovereignty**.
 
 ---
 
-## 🔄 The Clinical Validation Loop
+## 🛰️ High-Level Topology
+
+The protocol is structured into four fundamental layers that ensure hardware efficiency, absolute privacy, and ethical alignment.
+
+### 1. 🔩 Sovereignty Abstraction Layer (SAL) — "The Body"
+This layer interfaces with any available hardware architecture (ARM, x86, RISC-V), prioritizing:
+- **Local Inference Units (NPU/GPU):** 100% dedicated to local Acolyte execution. No cloud dependency.
+- **Hardware Acceleration:** Repurposing specialized cores for real-time physiological tasks like 3D spatial audio mapping.
+- **Biosensor Hub:** Low-latency access to HRV, GSR, and environmental sensors.
+
+### 2. 🔢 Mathematical Privacy Layer (OpenMined Integration) — "The Filter"
+Cortex Protocol does not just "hide" data; it transforms it into mathematical proof. By integrating the principles of **Differential Privacy** and **Federated Learning** (inspired by the OpenMined/PySyft stack), we ensure that:
+- **Information over Data:** The Acolyte learns from the *patterns* of the user's life (the "information") without ever having access to the raw *biometric values* (the "data").
+- **Encapsulated Tensors:** All physiological inputs are converted into encrypted mathematical tensors at the SAL level. No module — not even the Acolyte — can "see" the original heart rate or voice frequency.
+- **Collaborative Intelligence, Absolute Privacy:** This layer allows the protocol to improve its clinical models through Federated Learning, where only mathematical gradients are shared, never personal information.
+
+### 3. 🤖 Master Agent Core (The Acolyte) — "The Mind"
+The central nervous system of the Protocol, built on local Small Language Models (SLMs) optimized for edge silicon.
+- **Intent Orchestrator:** Identifies user intent and allocates hardware resources without intermediate app layers.
+- **Cognitive State Engine:** Analyzes sensor data (anonymized via the Privacy Layer) to determine mental load (Flow, Stress, Overload).
+- **Ethical Sandbox:** Every Acolyte decision is cross-referenced against the digitally signed rulesets from Ethical Governance Nodes before execution.
+
+### 4. 🖥️ Sovereign Neural Interface (SNI) — "The Senses"
+The interface is dynamic and intent-driven, replacing static grids with adaptive environments.
+- **Adaptive UX:** Visual complexity adjusts based on detected cognitive load.
+- **Sensory Buffer:** Hardware-level filters modulating screen Hz, blue light, and audio frequencies to maintain homeostasis.
+
+---
+
+## 🔄 The Sovereignty Loop (Privacy by Design)
 
 ```
 [Environmental/User Input]
@@ -49,39 +57,24 @@ Any local AI agent (The Acolyte) that implements the Cortex SDK.
 ```
 ---
 
-## 🔬 Clinical Capability Modules (CCM) — Implementation Focus
+## 🛤️ Roadmap: Universal Evolution
 
-The priority of the protocol is to enable health professionals to build **Clinical Modules** that act as "Digital Orthotics":
-
-1. **Cognitive Shielding (Milestone 0):**
-   - **Logic:** Monitoring environmental stress factors (audio/visual) to protect the user's focus and neurological integrity.
-   - **Role of the Clinic:** Defining the decibel, frequency, and blue-light thresholds that trigger hardware-level attenuation.
-
-2. **Physiological Regulation:**
-   - **Logic:** Real-time HRV (Heart Rate Variability) analysis to suggest or trigger relaxation protocols.
-   - **Role of the Clinic:** Validating the accuracy of local sensors and the efficacy of the interventions.
-
----
-
-## 🎓 University Node Governance Structure
-
-The university is not a consultant; it is a **Master Node**.
-
-- **Psychology Faculties:** Lead the design of Clinical Capability Modules and define what constitutes "well-being" in a digital context.
-- **Engineering Faculties:** Verify that the SAL correctly implements the constraints defined by the psychologists.
-- **Legal Faculties:** Ensure the protocol meets international standards like the **EU AI Act** and local data protection laws.
-
----
-
-## 🛠️ Technical Stack (Agnostic)
-
-| Layer | Purpose | Recommended Implementation |
+| Milestone | Focus | Key Deliverable |
 |---|---|---|
-| **Rulesets** | Ethical Governance | Signed JSON/YAML Manifests |
-| **Verification** | Signature Validation | OpenPGP / Hardware Root of Trust |
-| **Logic** | Clinical Processing | Python (Prototyping) / Rust (Implementation) |
-| **Hardware** | Execution | Universal (x86 GPU / ARM NPU) |
+| **0: Proof of Concept** | Clinical Efficacy | Local 3D spatial audio triggered by voice intent. |
+| **1: SAL Integration** | Hardware Agnosticism | Universal interface for ARM/x86 architectures. |
+| **2: OpenMined Stack** | Privacy Scale | Full implementation of Federated Learning tensors. |
+| **3: Standard** | Global Governance | Decentralized network of University Governance Nodes. |
 
 ---
 
-> *"The hardware is yours. The protocol is the clinical guarantee that it stays that way."*
+## 🔐 Ethical Constraints: The Governance Mechanism
+
+The Ethical Governance Nodes control what the Acolyte can physically do at runtime through:
+- **Constitutional System Prompts:** Ethical constraints are loaded into the Acolyte's context as "Constitutional Law" before processing intent.
+- **Signed Manifests:** Validated and digitally signed by Governance Nodes.
+- **Hardware Enforcement:** The SAL verifies GPG signatures at boot/launch. If invalid, the capability module is blocked.
+
+---
+
+> *"The hardware is yours. The protocol gives it back to you. The ethics make sure it stays that way."*
