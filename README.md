@@ -1,174 +1,52 @@
-# 🧠 Cortex OS Protocol
-### *Real sovereignty over your hardware. Governed by ethics. Built by the community.*
-
-> **Current status: Declaration of Intent — Open RFC.**  
-> We are looking for collaborators who want to build this from scratch, with purpose.
+# 🧠 Cortex Protocol
+### The Universal Open-Governance Framework for Sovereign & Ethical Computing.
+**"Protecting the human mind by design, audited by science, deployable on any system."**
 
 ---
 
-## 🇪🇸 La Visión: El Agente como Soberano
+## 🇪🇸 La Visión: De la Frustración a la Soberanía
+Cortex nació de una pregunta técnica sobre el hardware infrautilizado, pero su propósito evolucionó hacia la **soberanía cognitiva**. Hoy, la Inteligencia Artificial actúa como una "caja negra" que explota la atención del usuario. 
 
-Tu celular tiene hardware que nunca usas. No porque no exista — sino porque nadie te da acceso a él. Núcleos de Ray Tracing ociosos. NPUs infrautilizadas. DACs de alta fidelidad bloqueados por capas de software genérico. Todo ese potencial está en tu bolsillo, y no es tuyo.
-
-Cortex OS nació de esa frustración: un audiófi lo que descubrió que su Xiaomi 12 Pro tenía núcleos de Ray Tracing — y que nadie se los dejaba usar. La idea es simple: un agente local que actúe como puente entre tu intención y tu hardware real. Sin servidores. Sin intermediarios. Tu dispositivo, obedeciendo a ti.
-
-Los **Comités de Ética** universitarios no están para limitarte — están para garantizar que ese acceso funcione a tu favor y no en tu contra. La diferencia entre soberanía y anarquía técnica.
+**Cortex Protocol** es la infraestructura que devuelve el control al individuo, permitiendo que cualquier dispositivo —móvil, PC o servidor— actúe bajo la supervisión de **Comités de Ética Universitarios**. No construimos solo un sistema operativo; construimos la **Constitución Digital** del futuro, donde el psicólogo clínico es el garante de la seguridad tecnológica.
 
 ---
 
-## ⚡ The Problem
+## ⚡ The Problem: The "Black Box" Era
+Current software ecosystems function as closed environments that prioritize profit over user well-being:
+*   **Captive Hardware:** Ray Tracing cores, NPUs, and high-fidelity DACs are often locked or underutilized by generic software.
+*   **Privacy Erosion:** Sensitive biometric and mental health data are processed in corporate clouds rather than locally.
+*   **Ethical Vacuum:** There is no standardized clinical framework for developers to validate if their AI agents are safe or psychologically addictive.
 
-Your phone has hardware you never use.
+## 🤖 The Solution: A Hardware-Agnostic Protocol
+Cortex has evolved from a specific OS to a **Universal Governance Protocol** deployable across any architecture (ARM, x86, etc.).
 
-Not because it doesn't exist — but because no one gives you access to it.
+### Core Pillars:
+1.  **⚖️ Algorithmic Jurisprudence (Ethical Courts):** 
+    University nodes (starting with **Universidad Santiago de Cali**) act as decentralized courts that audit and certify AI modules. Clinical psychologists transition from the office to the code, validating the safety of the tools.
+2.  **🛡️ Sovereign Inference (Edge AI):** 
+    Data processing is 100% local. The protocol mandates that data remains on the device, utilizing available hardware like mobile NPUs or desktop GPUs (e.g., **GTX 1050**).
+3.  **🧩 Modular Clinical Validation:** 
+    Needs such as Neurodivergence (ASD/TEA), Audiophilia, or High-Performance workflows are treated as certified modules, not invasive third-party apps.
 
-Idle Ray Tracing cores. Underutilized NPUs. High-fidelity DACs locked behind
-layers of generic software. All that potential is in your pocket, and it isn't yours.
+## 🛠️ System Architecture: The SAL Layer
+Cortex introduces the **Sovereignty Abstraction Layer (SAL)**, ensuring hardware independence:
+*   **Cortex-Mobile (ARM):** Optimized for Snapdragon/Dimensity NPUs and low-latency mobile sensing.
+*   **Cortex-Desktop (x86/GPU):** Leverages desktop power for complex clinical simulations and high-fidelity processing.
+*   **Cortex-Certified SDK:** A toolkit for developers to make their applications "Sovereign" by adhering to ethical auditor rules.
 
-Cortex OS was born from that frustration.
+## 🔬 Featured Modules (Proof of Concept)
+*   **🛡️ Neurodivergence Support (ASD/TEA):** Real-time sensory attenuation and pragmatic translation for social subtext.
+*   **🧘 Clinical Regulation:** Vagus nerve tuning via HRV monitoring and high-fidelity auditory protocols.
+*   **🎧 Audiophile Mode:** Using Ray Tracing cores to calculate real-time acoustic reflections for virtual spaces.
 
----
+## 🌍 Who We Are Looking For
+*   **🎓 University Researchers:** To lead Ethical Committees and validate clinical modules.
+*   **🧠 Psychologists & Social Workers:** To define the boundaries of digital mental health.
+*   **💻 Developers (Android/PC/C++):** To build the SDK that makes this protocol universal.
+*   **🤝 Legal Auditors:** To align the protocol with international frameworks like the **EU AI Act**.
 
-## 🤖 The Idea
-
-A local AI agent — the **Acolyte** — that lives on your device and acts as
-the bridge between your intention and your actual hardware.
-
-You don't open apps. You tell it what you need.
-
-**Concrete examples:**
-
-- *"Play this song in a 3D space of 4x3 meters"*  
-  → The agent uses Ray Tracing cores to calculate acoustic reflections  
-  and render the sound field in real time.
-
-- *"I need deep focus mode for the next 2 hours"*  
-  → The agent adjusts audio frequencies, brightness, notifications  
-  and NPU load to maximize your cognitive state.
-
-- *"Process this audio separating instruments at maximum fidelity"*  
-  → The agent allocates DSP resources directly, with no intermediaries.
-
-Every person. Their needs. Their hardware. Their control.
-
----
-
-## ⚡ Core Pillars (Los Pilares del Protocolo)
-
-### 1. 🔩 Silicon Sovereignty — The Orchestrator
-- The user communicates an **intent**, not an app launch
-- The Acolyte coordinates CPU/GPU/NPU in real time
-- **100% local:** your data never leaves the device
-- **Hardware liberated:** Ray Tracing cores for spatial audio and beyond
-
-### 2. ⚖️ Algorithmic Jurisprudence — The Ethical Courts
-- Auditable university nodes define the system's safety boundaries
-- The system protects you from addictive patterns and hardware misuse
-- Governance over profit
-
-### 3. 🧩 Modular Capabilities — Adaptive User Profiles
-The first protocol that treats each user's specific needs —
-neurodivergence, audiophile use, high-performance workflow —
-as native system capabilities, not third-party apps.
+## 🎯 Milestone 0: The Universal Standard
+Demonstrate that the **Cortex Protocol** can certify a spatial audio module that runs locally on both ARM mobile devices and x86 architectures, authorized by a digital university signature.
 
 ---
-
-## 🧩 Featured Modules (Pruebas de Concepto)
-
-- **🎧 Audiophile Mode:**
-  - *3D Spatial Rendering:* Ray Tracing cores calculate real-time acoustic
-    reflections for user-defined virtual spaces.
-  - *Instrument Separation:* DSP resources allocated directly for
-    maximum fidelity stem processing.
-
-- **🛡️ Neurodivergence Support (ASD/TEA):**
-  - *Sensory Buffer Mode:* Real-time attenuation of hardware sensory
-    stimuli based on environmental load.
-  - *Pragmatic Translator:* Local NLP to decode subtext and sarcasm
-    in digital communication.
-
-- **🧘 Clinical Regulation:**
-  - *Vagus Nerve Tuning:* Real-time HRV monitoring to trigger
-    high-fidelity breathing protocols and auditory frequencies.
-  - *Impulse Control:* Integrated ethical friction to prevent
-    compulsive digital behaviors.
-
-- **💻 High-Performance Flow:**
-  - *Deep Focus Mode:* Cognitive load management optimizing NPU
-    cycles for maximum creative output.
-
----
-
-## 📱 Reference Hardware
-
-**Xiaomi 12 Pro — Snapdragon 8 Gen 1**
-
-- Ray Tracing cores → real-time 3D spatial audio
-- NPU → local agent inference
-- High-fidelity DAC → clinical-grade audio output
-- TEE → secure isolation of biometric data
-
----
-
-## 🛠️ Tech Stack
-
-- **Target architecture:** ARM v8/v9 (Snapdragon 8 Gen 1+ / Dimensity 9000+)
-- **Local AI engine:** ExecuTorch / Llama.cpp
-- **Audio:** AAudio / OpenSL ES / Hexagon DSP
-- **Security:** Trusted Execution Environment (TEE)
-- **License:** GPL-3.0 — Transparency is our physical law
-
----
-
-## 🎯 Milestone 0
-
-> Demonstrate that the Ray Tracing cores of the Snapdragon 8 Gen 1  
-> can render a user-defined 3D spatial sound field,  
-> running completely local, with no external services.
-
----
-
-## 🛠️ System Workflow: The Sovereignty Loop
-
-```
-[User Intent / Biometric Sensors]
-            ↓
-    [Acolyte — Local NPU Inference]
-            ↓
-      [Ethical Court Filter]
-   ↙ Violation        ↘ Safe
-[Friction/Alert]  [Direct Hardware Execution]
-            ↓
-  [Result delivered to user]
-            ↓
-  [User feedback → local model refinement]
-```
- 
-> *"The hardware is yours. The agent gives it back to you."*
-
----
-
-## 🌍 Who We're Looking For
-
-- 🔊 Android devs with experience in AAudio, OpenSL ES, Hexagon DSP or audio HAL
-- 🎛️ Audio / DSP / spatial processing engineers
-- 🎓 University researchers interested in ethical hardware governance
-- 🤝 Anyone who believes their device should obey them
-
----
-
-## 🌱 Origin
-
-This project was born from a question asked by an audiophile who discovered
-his phone had Ray Tracing cores — and that no one was letting him use them.
-
-It is an open project, for humanity, with no commercial owner.
-
----
-
-## 🤝 How to Contribute
-
-Read [CONTRIBUTING.md](./CONTRIBUTING.md).  
-Have a question? Open an Issue.  
-Have an idea? Open an Issue.  
-Want to build? Fork and show us.
+**"The hardware is yours. The protocol gives it back to you."**
