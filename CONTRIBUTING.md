@@ -21,51 +21,56 @@ Before you contribute, please read our core documents. They are not bureaucracy;
 Cortex is an interdisciplinary effort. We need diverse expertise to build a truly human-centric protocol:
 
 ### 1. 🤖 Engineering & Architecture
-- **Local AI / Edge Computing:** Optimizing SLMs (Small Language Models) for local inference on NPUs and GPUs.
-- **Hardware Abstraction:** Developing the **SAL (Sovereignty Abstraction Layer)** to ensure the protocol runs on any architecture (ARM, x86, etc.).
-- **Systems Security:** Implementing TEE (Trusted Execution Environments) to protect clinical rulesets from external tampering.
+- **Local AI / Edge Computing:** Optimizing SLMs for local inference.
+- **Hardware Abstraction:** Developing the **SAL (Sovereignty Abstraction Layer)**.
 
-### 2. 🧠 Clinical & Neurobiology Research
-- **Psychologists & Neuroscientists:** Defining the safety thresholds for sensory load, stress regulation, and cognitive focus.
-- **Bioethicists:** Auditing the protocol's impact on human autonomy and mental integrity.
-- **Peer-Reviewers:** Contributing to the **Clinical-Technical Bridge** with updated scientific evidence.
+### 2. 🧠 Clinical & Neurobiology Research (The White Branch)
+- **Psychologists & Neuroscientists:** Defining the safety thresholds for sensory load and stress regulation.
+- **Clinical Auditors:** Reviewing and approving the "Clinical Capability Modules" (CCM).
 
-### 3. ⚖️ Governance & Legal
-- **Independent Auditors:** Joining or forming **Governance Nodes** to sign and certify Clinical Capability Modules.
-- **Legal Experts:** Ensuring compliance with global digital sovereignty and data protection standards (GDPR, EU AI Act, etc.).
+### 3. ⚖️ Governance & Legal (The Adscribed Shield)
+- **Legal Validators:** Ensuring that clinical intents are legally bulletproof and respect Neuro-rights.
+- **Auditors:** Verifying compliance with global digital sovereignty standards.
 
 ---
 
 ## 🛠️ How to Contribute
 
 ### Step 1: Join the Discussion
-If you have a proposal for a new **Clinical Capability Module (CCM)** or a technical improvement, open an **Issue** with the tag `[Proposal]`. 
+Open an **Issue** with the tag `[Proposal]` to discuss new Clinical Capability Modules (CCM).
 
-### Step 2: The Validation Loop
-All contributions must pass the **Cortex Validation Loop**:
-1. **Clinical Alignment:** Does it respect the margins in the Clinical Bridge?
-2. **Sovereignty Check:** Does it run 100% locally? Is there a user override path?
-3. **Technical Audit:** Is the code memory-safe, efficient, and hardware-agnostic?
+### Step 2: The Validation Loop (Hierarchy of Trust)
+To ensure clinical sovereignty, all contributions must pass through this hierarchical process:
+
+1. **Phase 1: Clinical Audit (The "White Branch" Privilege)**
+   - A Clinical Node (Psychologists/Doctors) evaluates the module's therapeutic value and safety.
+   - **Status:** Mandatory. If rejected here for clinical reasons, the module cannot proceed.
+
+2. **Phase 2: Legal Validation (Adscribed Shield)**
+   - The adscribed Legal Branch reviews the module to ensure it protects both the creator and the user.
+   - **Focus:** Compliance with Neuro-rights and ensuring the "Legal Signature" is valid for sovereignty.
+
+3. **Phase 3: Technical & Sovereignty Check**
+   - Does it run 100% locally? Is the code efficient and hardware-agnostic?
 
 ### Step 3: Pull Request (PR)
-- Follow the official template.
-- Document the *why* (clinical/ethical reason) as much as the *how* (technical implementation).
-- Ensure your PR is linked to an approved Issue.
+- Document the *clinical reason* as much as the *technical implementation*.
 
 ---
 
 ## 🚫 What We Do Not Accept
-- **Cloud-Dependencies:** Any feature that exfiltrates raw biometric or personal data to external servers.
-- **Dark Patterns:** Code designed to manipulate user attention or create addictive behaviors.
-- **Hardware Locks:** Any attempt to restrict the protocol to a specific hardware brand or vendor.
+- **Cloud-Dependencies:** Any feature that exfiltrates raw biometric data.
+- **Dark Patterns:** Code designed to manipulate user attention.
+- **Hardware Locks:** Any attempt to restrict the protocol to a specific vendor.
 
 ---
 
 ## 🌍 Language & Community
-- **Official Language:** Technical documentation, code comments, and PRs are in **English** to ensure global interoperability.
-- **Community Language:** **Spanish** is highly encouraged in Issues and discussions. This project was born from a vision of regional sovereignty, and that community is vital to our growth.
+- **Official Language:** Documentation and Code in **English**.
+- **Community Language:** **Spanish** is highly encouraged in Issues and discussions. Born from regional sovereignty, open to the world.
 
 ---
 
 > *"The best contribution is the one that gives a person more control over their own mind and their own device than they had yesterday."*
+> 
 > 
