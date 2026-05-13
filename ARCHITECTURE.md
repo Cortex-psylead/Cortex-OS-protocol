@@ -20,7 +20,7 @@ The core of the protocol is the **Clinical Capability Module (CCM)**: a set of r
 Cortex establishes a trust chain between three fundamental domains:
 
 ### 1. ⚖️ The Ethical Courts (The Sovereign Source)
-The governing body composed of university faculties (e.g., **Universidad Santiago de Cali**).
+The governing body composed of university faculties (e.g., **universities**).
 - **Clinical Frameworks:** Psychologists define the safety boundaries (e.g., sensory thresholds, cognitive load limits).
 - **Cryptographic Authority:** Every ethical ruleset is digitally signed by the University. Without this signature, a module cannot claim Cortex compliance.
 
