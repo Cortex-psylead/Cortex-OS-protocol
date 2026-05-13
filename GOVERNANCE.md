@@ -1,201 +1,66 @@
-# 🏛️ Project Governance: Ethical Courts & Community Structure
+# 🏛️ Protocol Governance: Ethical Margins & Independent Validation
 
-This document defines how Cortex OS is governed as an open source project:
-who makes decisions, how Ethical Courts operate, how contributions are
-validated, and how user sovereignty is protected at every level.
+This document defines how the **Cortex Protocol** is governed. It establishes the mechanism by which clinical and ethical standards are translated into enforceable hardware constraints. 
 
-For the foundational ethical principles that the system enforces at runtime,
-see [GOVERNANCE-BASE.md](./GOVERNANCE-BASE.md).
+Cortex is not a corporate product; it is a decentralized standard for **Sovereign Computing**. Its governance ensures that no single entity can override the clinical safety or the privacy of the individual.
 
 ---
 
 ## 🧭 Governance Philosophy
 
-Cortex OS has no corporate owner. It has no profit motive.
+The protocol's governance is built on three non-negotiable pillars:
 
-Its governance model is built on three pillars:
-
-1. **Community** — developers, researchers, and users who build and improve
-   the protocol under GPL-3.0
-2. **Ethical Courts** — independent university nodes that audit code and
-   define safe-use protocols
-3. **User Sovereignty** — the individual always holds final authority over
-   their own device, as defined in GOVERNANCE-BASE.md
-
-No single entity — including the project founder — can override a decision
-validated by the full governance structure.
+1. **User Sovereignty:** The individual holds final authority over their device. The protocol acts as a servant to the user's intent, never a master.
+2. **Clinical Integrity:** Every intervention that touches the human nervous system must be backed by peer-reviewed evidence.
+3. **Hardware Agnosticism:** Ethical governance must be enforceable regardless of the device's architecture (ARM, x86, NPU, or GPU).
 
 ---
 
-## 🏗️ Project Roles
+## 🏗️ Governance Roles
 
-### 🌱 Contributor
-Anyone who submits a Pull Request, opens an Issue, or participates in
-community discussion. No formal requirements — only adherence to the
-[Code of Conduct](./CONTRIBUTING.md).
+### 1. ⚖️ Ethical Governance Nodes (The Courts)
+Independent entities (faculties, research groups, or professional associations) that provide scientific oversight. Their role is to:
+- **Define Clinical Margins:** Establish the safety thresholds for sensory and cognitive protection.
+- **Cryptographic Certification:** Digitally sign the "Clinical Capability Modules" (CCM). Without this signature, a module is not Cortex-Certified.
+- **Audit:** Verify that the **Sovereignty Abstraction Layer (SAL)** correctly protects user data.
 
-### 🔧 Maintainer
-A contributor recognized by the community for sustained, high-quality
-contributions. Maintainers can:
-- Review and merge Pull Requests
-- Triage Issues
-- Propose changes to protocol documents
+### 2. 🛡️ Protocol Stewards
+Individuals or groups responsible for maintaining the vision and the **Sovereignty Abstraction Layer**.
+- **Facilitation:** Connecting clinical research with technical implementation.
+- **Standardization:** Ensuring the protocol remains universal and interoperable across different hardware.
 
-Maintainers are proposed by the community and confirmed by simple majority
-of active maintainers.
-
-### 🎓 Ethical Court Node
-A university (public or private) formally affiliated with the project.
-Court nodes are the only entities authorized to:
-- Issue ethical certifications for capability modules
-- Define or modify safety protocols in GOVERNANCE-BASE.md
-- Veto contributions that violate core ethical principles
-
-Court nodes have **no authority** over technical implementation decisions
-outside their domain. A law faculty cannot block a DSP optimization.
-An engineering faculty cannot override a clinical safety protocol.
-
-### 🧭 Protocol Steward
-The project founder role. Responsible for:
-- Maintaining the vision and long-term direction
-- Facilitating communication between maintainers and court nodes
-- Breaking ties when governance processes deadlock
-
-The Steward role is transitional — as the community and court structure
-matures, governance authority transfers progressively to the collective.
+### 3. 🤖 Certified Implementers
+Developers and AI agents that adopt the Cortex SDK. They must prove that their agents operate strictly within the margins defined by the Governance Nodes.
 
 ---
 
-## 🎓 Ethical Courts: Structure & Operation
+## 🔄 The Validation Process: From Science to Silicon
 
-### What they are
-Independent university nodes — public or private — that provide scientific
-and ethical oversight of the Cortex OS protocol. They are not employees,
-not contractors, and not administrators of the project. They are
-**independent auditors and protocol definers**.
+For a new feature to be integrated into the protocol, it must pass through the **Validation Loop**:
 
-### Three specialized roles per node
-
-**🔩 Technical Audit (Engineering / Computer Science faculties)**
-- Audit contributed code using Semgrep and SonarQube
-- Verify that all hardware access paths respect the sovereignty principles
-- Issue technical certification for new capability modules
-- Tool: Public SonarQube dashboard (one per active court node)
-
-**🧠 Ethical Protocol (Psychology / Bioethics / Neuroscience faculties)**
-- Define safe-use parameters for each capability module
-- Establish intervention level guidelines (see GOVERNANCE-BASE.md §3)
-- Review and approve any module that interfaces with biometric data
-- Reference frameworks: UNESCO AI Ethics (2021), IEEE CertifAIEd,
-  Polyvagal Theory (Porges), Free Energy Principle (Friston)
-
-**⚖️ Legal Compliance (Law faculties)**
-- Validate protocol compliance with local data protection legislation
-- Colombia: Ley 1581/2012 (data protection), Ley 1090/2006 (psychology)
-- European contributors: GDPR
-- Issue compliance declarations per jurisdiction
-
-### How a node joins
-1. A university representative opens a formal Issue tagged `[court-node-proposal]`
-2. The proposal must include: institution name, faculty/department,
-   designated role (technical / ethical / legal), and a brief statement
-   of commitment
-3. Active maintainers review and vote — simple majority confirms
-4. The node is listed in this document and gains access to the
-   audit pipeline
-
-### How a node operates
-- Each node publishes its audit findings publicly in the repository
-  under `/courts/[node-name]/`
-- Findings are dated, signed by the responsible academic, and linked
-  to the specific commit or PR they evaluate
-- Any community member can question a court finding by opening an Issue
-  tagged `[court-challenge]`
-
-### What courts cannot do
-- Courts cannot block a contribution based on opinion — only on documented
-  violation of GOVERNANCE-BASE.md principles or applicable law
-- Courts cannot mandate commercial restrictions on the protocol
-- Courts cannot override user sovereignty as defined in GOVERNANCE-BASE.md
-
----
-
-## 🔄 Decision-Making Process
-
-### Routine contributions (bug fixes, documentation, minor features)
-1. Contributor opens a Pull Request
-2. One maintainer reviews and approves
-3. Merged after 48-hour review window with no objections
-
-### Capability modules (new hardware features, new user profiles)
-1. Contributor opens an Issue tagged `[capability-proposal]` with
-   technical spec and use case
-2. Community discussion — minimum 7 days
-3. Technical Court node reviews code
-4. Ethical Court node reviews safety parameters
-5. Merged with approval from both relevant court roles
-
-### Protocol changes (GOVERNANCE-BASE.md, ARCHITECTURE.md, core agent behavior)
-1. Proposal opened as Issue tagged `[protocol-change]`
-2. Minimum 30-day community discussion
-3. Full court review — all three roles must issue findings
-4. Requires consensus of active maintainers plus no veto from court nodes
-
-### Emergency security patches
-- Any maintainer can merge a security patch immediately
-- Must be tagged `[security-patch]` and reviewed retroactively
-  within 72 hours
+1. **Clinical Proposal:** A researcher or clinician submits a proposal based on peer-reviewed evidence (e.g., Polyvagal Theory).
+2. **Margin Definition:** The Governance Node defines the specific hardware parameters (e.g., decibel limits, blue light thresholds).
+3. **Technical Audit:** Verification that the local hardware (Mobile NPU, Desktop GPU, etc.) can enforce these margins 100% locally.
+4. **Digital Signing:** The Governance Node issues a signed manifest that the **Cortex Protocol** enforces at runtime.
 
 ---
 
 ## 🛡️ Anti-Capture Provisions
 
-These rules exist to prevent the project from being captured by commercial,
-governmental, or ideological interests:
+These rules prevent the protocol from being controlled by commercial or governmental interests:
 
-1. **No corporate maintainers:** No single company may hold more than
-   one maintainer seat. Employees of the same company count as one vote.
-
-2. **No proprietary dependencies by default:** Any contribution that
-   introduces a proprietary dependency must be explicitly opt-in and
-   clearly documented. The core system must always run on fully open
-   components.
-
-3. **No hidden hardware locks:** Any code that limits user access to their
-   own hardware — for any reason not explicitly defined in GOVERNANCE-BASE.md
-   — is grounds for immediate revert.
-
-4. **Fork right is absolute:** Any individual or community may fork this
-   project under GPL-3.0 at any time, for any reason.
+1. **Primacy of Local Execution:** Any contribution that requires cloud-based processing of biometric or cognitive data is automatically rejected.
+2. **Clinical Supremacy:** Commercial "app" logic can never override a signed Clinical Capability Module. The protocol enforces this at the hardware level.
+3. **Transparency of Evidence:** Every margin in the protocol must be linked to a public, verifiable scientific reference.
+4. **Hardware Independence:** No hardware manufacturer can lock the protocol to a specific brand. The SAL must remain open and universal.
 
 ---
 
-## 📋 Governance Review Cycle
+## 📋 Annual Review Cycle
 
-The governance structure itself is reviewed annually by the community.
-Any aspect of this document — including these anti-capture provisions —
-can be modified through the Protocol Change process above.
-
-The only unmodifiable rule: user sovereignty as defined in
-GOVERNANCE-BASE.md §1 (Primacy of Will) cannot be weakened by any
-governance process.
+The protocol's ethical margins are reviewed annually to incorporate new scientific discoveries in neurobiology and psychology. This ensures the **Cognitive Shield** remains at the cutting edge of human-centric technology.
 
 ---
 
-## 🌍 Current Status
-
-| Role | Status |
-|---|---|
-| Protocol Steward | Active — project founder |
-| Maintainers | Open — seeking first maintainers |
-| Technical Court Nodes | Open — seeking university partners |
-| Ethical Court Nodes | Open — seeking university partners |
-| Legal Court Nodes | Open — seeking university partners |
-
-To propose yourself as a maintainer or court node, open an Issue with
-the appropriate tag.
-
----
-
-> *"Governance is not control. It is the structure that prevents control
-> from being taken by anyone who should not have it — including us."*
+> *"Governance is not about controlling the user; it is about providing the user with a controlled and safe environment where their sovereignty is guaranteed by science."*
+> 
