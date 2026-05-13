@@ -1,108 +1,69 @@
-# 🛣️ Roadmap: Cortex OS Protocol
+# 🛣️ Roadmap: Cortex Protocol Evolution
+### From Ethical Theory to Universal Sovereign Standard
 
-This document shows the current state of the project and what comes next.
-It is a living document — updated as the community grows and milestones are reached.
+This document outlines the strategic progression of the **Cortex Protocol**. As a living document, it evolves alongside our community and scientific discoveries.
 
-> **Current status: Declaration of Intent — Open RFC.**
-> No production code exists yet. We are building the foundation.
-
----
-
-## 🧭 Where We Are Now
-
-| Area | Status |
-|---|---|
-| Vision & protocol documents | ✅ Complete |
-| Clinical-technical framework | ✅ Complete |
-| Ethical governance structure | ✅ Complete |
-| Security architecture | ✅ Defined |
-| First technical collaborator | 🔍 Seeking |
-| First university node | 🔍 Seeking |
-| Any working code | ⏳ Pending Milestone 0 |
+> **Current Status: Protocol Specification — Open RFC.**
+> We are building the foundational standards for sovereign, clinical-grade computing.
 
 ---
 
-## 🎯 Milestone 0 — Proof of Concept
-**Target: 2025–2026 | Status: 🔍 Seeking collaborators**
+## 🎯 Milestone 0: The Cognitive Shield (Proof of Concept)
+**Target: 2025–2026 | Status: 🔍 Seeking Technical & Clinical Collaborators**
 
-> Demonstrate that the Ray Tracing cores of a Snapdragon 8 Gen 1
-> can render a user-defined 3D spatial sound field,
-> running completely local, with no external services.
+The goal is to demonstrate that a local AI agent can orchestrate hardware resources to protect a user's neurological integrity using **Intent-Based Interaction**.
 
-**What needs to happen:**
-- Android dev with AAudio / Oboe / Hexagon DSP experience joins the project
-- 3D spatial audio prototype running on Xiaomi 12 Pro (reference device)
-- Local voice intent recognition via Whisper.cpp — user says what they want,
-  the agent delivers it
-- First commit of executable code in the repository
+**Key Objectives:**
+- **Local Intent Processing:** Implementing a voice/text interface that runs 100% locally (using SLMs like Whisper or Phi).
+- **The Shield:** Real-time environmental sensing (audio/visual) and hardware-level mitigation based on Clinical Capability Modules.
+- **Hardware Demo:** Proving the protocol works on high-performance local hardware (e.g., modern GPUs or NPUs) without cloud pings.
 
-**This milestone proves the core thesis:** underutilized mobile hardware
-can be orchestrated by a local AI agent for real user benefit.
+**Success Criteria:** A functional demonstration where the hardware acts as a protective layer for the human mind, governed by a signed ethical manifest.
 
 ---
 
-## ⚙️ Phase 1 — AOSP Foundation
-**Target: 12–18 months after Milestone 0 | Status: ⏳ Not started**
+## ⚙️ Phase 1: The Sovereignty Abstraction Layer (SAL)
+**Target: 12–18 months post-Milestone 0 | Status: ⏳ Not started**
 
-- AOSP base with Google Services removed
-- Acolyte running as privileged system service
-- HRV monitoring module — local NPU processing
-- Therapeutic audio module — Hexagon DSP synthesis
-- Neurodivergence sensory buffer — real-time environmental load scoring
-- First Ethical Court university node formally affiliated
-- Clinical validation protocol designed by psychology semillero
+Establishing the technical standard that allows the protocol to be hardware-agnostic.
 
-**Exit criteria:** A working AOSP build where the user can speak an intent
-and the system delivers a hardware response — locally, privately, ethically.
+- **SAL Development:** Creating the interface that allows the Acolyte to communicate with ARM, x86, and specialized AI silicon.
+- **Formal Governance:** Constituting the first **Independent Governance Nodes** (Ethical and Technical) to begin signing clinical manifests.
+- **Modular SDK:** Releasing the first toolkit for developers to build "Cortex-Certified" modules.
 
 ---
 
-## 🔧 Phase 2 — Hybrid Linux Kernel
-**Target: 18–36 months after Phase 1 | Status: ⏳ Not started**
+## 🛡️ Phase 2: Cross-Platform Integration
+**Target: 18–30 months | Status: ⏳ Not started**
 
-- Migration to Linux mainline kernel with Android patches
-- PipeWire replacing Android audio HAL
-- OP-TEE fully integrated for biometric data isolation
-- Acolyte promoted to core system daemon
-- Ethical Courts formally constituted with technical, clinical,
-  and legal university nodes
-- First academic paper published from clinical-technical collaboration
+Moving beyond a single device into a universal deployment model.
 
-**Exit criteria:** Cortex OS running on Linux kernel with all Phase 1
-modules functional and Ethical Courts actively auditing contributions.
+- **OS Integration:** Implementing Cortex as a governance layer on top of existing Linux-based environments (Desktop and Mobile).
+- **Advanced Isolation:** Deploying **Zero-Trust Sandboxing** to ensure total biometric privacy between modules.
+- **Academic Output:** First peer-reviewed publications detailing the impact of "Ethical Friction" and "Cognitive Shielding" on user well-being.
 
 ---
 
-## 🌐 Phase 3 — Sovereign Linux Mobile OS
-**Target: 36+ months after Phase 2 | Status: ⏳ Not started**
+## 🌐 Phase 3: The Universal Sovereign Standard
+**Target: 36+ months | Status: ⏳ Not started**
 
-- Full Linux kernel — no Android layer
-- Acolyte as system orchestrator from boot
-- Vendor-agnostic: Snapdragon, Dimensity, Exynos ARM v8/v9
-- All proprietary blobs replaced or reverse-engineered under
-  open source legal frameworks
-- Cortex OS as a complete, distributable Linux mobile OS
-- International university governance network established
+The protocol becomes a global standard for ethical, decentralized computing.
 
-**Exit criteria:** A person can flash Cortex OS on a supported device
-and have full hardware sovereignty from first boot.
+- **Full Autonomy:** The Acolyte operates as a native system orchestrator from the hardware boot level.
+- **Global Governance Network:** An international web of university and research nodes providing a decentralized repository of clinical safety rules.
+- **Market Impact:** Hardware manufacturers adopting "Cortex-Ready" certifications, ensuring their devices respect human biological integrity by design.
 
 ---
 
 ## 🤝 How to Move This Forward
 
-The fastest way to advance the roadmap is:
+The fastest way to advance the roadmap is through interdisciplinary collaboration:
 
-1. **If you are an Android audio / DSP developer** — open an Issue
-   tagged `[milestone-0]` and let's build the proof of concept together
-2. **If you are a university researcher** — open an Issue tagged
-   `[court-node-proposal]` and read GOVERNANCE.md
-3. **If you are anyone else** — star the repository, share it,
-   open Issues with ideas and questions
-
-Every conversation moves this forward.
+1. **If you are a Developer (AI/Systems/DSP):** Help us build the **Sovereignty Abstraction Layer**. Open an Issue tagged `[Technical-Track]`.
+2. **If you are a Researcher (Psychology/Neuroscience):** Help us define the margins in the **Clinical-Technical Bridge**. Open an Issue tagged `[Clinical-Track]`.
+3. **If you are an Institution:** Join as an **Independent Governance Node** to audit and certify the ethics of the protocol.
 
 ---
 
-> *"A roadmap is not a promise. It is a direction.
-> The community decides how fast we walk."*
+> *"A roadmap is not a promise of a product; it is a commitment to a direction. We walk toward a future where the machine is finally an ally to the soul."*
+>  
