@@ -32,6 +32,14 @@ Individuals or groups responsible for maintaining the vision and the **Sovereign
 ### 3. 🤖 Certified Implementers
 Developers and AI agents that adopt the Cortex SDK. They must prove that their agents operate strictly within the margins defined by the Governance Nodes.
 
+### ⚖️ The Legal Validator (Adscribed Legal Arm)
+
+The Legal Validator is a specialized advisory body adscribed directly to the **Clinical/Health Faculty**. Their role is to provide a legal shield for clinical innovation.
+
+- **Non-Decisional Status:** The Legal Validator does not have the authority to veto clinical efficacy or psychological methodology. These decisions remain the exclusive privilege of the "White Branch" (Healthcare professionals).
+- **Mandate:** Their sole power is to verify that the clinical intent is legally bulletproof against external corporate or governmental interference (GDPR, Neuro-rights, and Liability).
+- **The Sovereignty Seal:** They provide the "Legal Signature" necessary for a module to be considered "Sovereign," certifying that the user's legal rights are protected by the protocol's architecture.
+  
 ---
 
 ## 🔄 The Validation Process: From Science to Silicon
