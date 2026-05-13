@@ -1,10 +1,15 @@
 # ⚠️ Disclaimer & Safety Notice: Cortex Protocol
+
 ### Legal Framework for Research, Sovereignty, and Clinical Responsibility
-**Read this document carefully before using, implementing, or contributing to the Cortex Protocol.**
+**Read this document carefully before using, implementing, or contributing to the Cortex Protocol.
+
 ---
 ## 🌐 Nature of the Project / Naturaleza del Proyecto
+
 **[English]** Cortex Protocol is a **universal research and development framework**. It is not a commercial product, nor is it a substitute for professional medical or psychological judgment. The protocol provides the technical infrastructure for sovereignty, but the responsibility for its application lies with the implementer and the end-user.
+
 **[Español]** El Protocolo Cortex es un **marco de investigación y desarrollo universal**. No es un producto comercial, ni sustituye el juicio médico o psicológico profesional. El protocolo proporciona la infraestructura técnica para la soberanía, pero la responsabilidad de su aplicación recae en el implementador y el usuario final.
+
 ---
 ## 🏥 Not a Medical Device (Clinical Safety)
 The Cortex Protocol and its **Clinical Capability Modules (CCM)** are academic proposals based on peer-reviewed literature. However:
