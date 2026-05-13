@@ -2,9 +2,14 @@
 This document establishes the scientific foundation for the **Clinical Capability Modules (CCM)** within the Cortex Protocol. It serves as the official reference for **Ethical Governance Nodes** to validate and sign the digital constraints that govern local AI agents.
 Every agent seeking "Cortex-Certified" status must implement the hardware-agnostic boundaries defined here to ensure the user's **Cognitive Sovereignty** across any computing environment.
 ---
+
 ## 🌐 About this Document / Acerca de este documento
+
 **[English]** This bridge ensures that technical execution never bypasses clinical safety. It translates peer-reviewed psychological and physiological research into enforceable hardware constraints. By using the Cortex Protocol, developers agree to subject their local AI agents to these evidence-based margins.
-**[Español]** Este puente asegura que la ejecución técnica nunca ignore la seguridad clínica. Traduce investigaciones psicológicas y fisiológicas revisadas por pares en restricciones de hardware ejecutables. Al utilizar el Protocolo Cortex, los desarrolladores aceptan someter sus agentes de IA locales a estos márgenes basados en evidencia.
+
+**[Español]** Este puente asegura que la ejecución técnica nunca ignore la seguridad clínica. Traduce investigaciones psicológicas y fisiológicas revisadas por pares en restricciones de hardware ejecutables. Al utilizar el Protocolo Cortex, los desarrolladores aceptan someter sus agentes de IA locales a estos márgenes basados en 
+evidencia.
+
 ---
 ## 📐 The Governance Framework
 The protocol remains independent of specific hardware vendors, focusing on **compute capabilities** (GPU, NPU, DSP) rather than specific models.
