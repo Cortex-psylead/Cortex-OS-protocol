@@ -208,7 +208,7 @@ The session audit log retains only: timestamp, truncated sensor hash (8 hex char
 
 The White Branch mandates transparent acknowledgment of current limitations:
 
-1. **Simulation vs. real sensors:** Milestone 0 demonstrates the pipeline with synthetic EEG-like signals. The CDI thresholds have not been validated against clinical populations using real EEG hardware. This is the primary objective of the clinical validation collaboration with Universidad Santiago de Cali.
+1. **Simulation vs. real sensors:** Milestone 0 demonstrates the pipeline with synthetic EEG-like signals. The CDI thresholds have not been validated against clinical populations using real EEG hardware. This is the primary objective of the clinical validation collaboration currently in development with an academic partner institution.
 
 2. **`data.fill(0)` is not cryptographic erasure:** NumPy `fill(0)` zeroes the array in Python-managed memory. On systems with memory-mapped files, swap partitions, or copy-on-write kernels, zeroed memory may persist. Production deployments targeting high-threat environments should integrate OS-level secure memory (`mlock`, `SecureZeroMemory` on Windows) or hardware-backed TEEs.
 
