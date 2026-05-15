@@ -6,13 +6,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 [![Branch: Clinical/White](https://img.shields.io/badge/Branch-White%20(Clinical)-blue.svg)](GOVERNANCE.md)
 
-ING
-
 The **Cortex Protocol** is an open, royalty-free technical standard that defines the minimum requirements for protecting neurophysiological data sovereignty in any system where an AI agent interacts with human biometric data.
-
-ESP
-
-El **Protocolo Cortex** es un estándar técnico abierto y libre de regalías que define los requisitos mínimos para proteger la soberanía de los datos neurofisiológicos en cualquier sistema donde un agente de IA interactúe con datos biométricos humanos.
 
 It is the technical layer that makes privacy and clinical safety the architectural default — not a policy promise.
 
