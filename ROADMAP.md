@@ -35,7 +35,7 @@ The transition from simulated signals to validated clinical data. This milestone
 **Objectives:**
 
 **Clinical:**
-- Partner with a university research center (target: a university research center in Colombia) to run a controlled study validating CDI thresholds against real EEG hardware (OpenBCI or Muse 2) with a clinical population.
+- Partner with a university research center (target: Universidad Santiago de Cali, Colombia) to run a controlled study validating CDI thresholds against real EEG hardware (OpenBCI or Muse 2) with a clinical population.
 - Produce a validation dataset comparing CDI readings against established HRV metrics (RMSSD, LF/HF ratio) to confirm the Coherency Index's clinical correspondence.
 - Publish first peer-reviewed paper: *"A hardware-enforced sovereignty layer for neurophysiological data in clinical AI settings."*
 
