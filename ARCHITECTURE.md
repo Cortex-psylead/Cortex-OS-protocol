@@ -147,3 +147,4 @@ Governance Nodes do not merely audit documents — they control what the Acolyte
 ---
 
 > *"The hardware is yours. The protocol gives it back to you. The ethics make sure it stays that way."*
+> 
