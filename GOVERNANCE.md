@@ -1,17 +1,17 @@
 # 🏛️ Protocol Governance
-**Cortex Protocol — Governance Framework v1.1**
+**Cortex Protocol — Governance Framework v1.2**
 
-This document defines how the Cortex Protocol is governed as an open standard. It establishes the roles, validation processes, and anti-capture mechanisms that ensure no single entity controls the clinical safety parameters of the protocol.
+This document defines how the Cortex Protocol is governed as an open standard. It establishes roles, validation processes, anti-capture mechanisms, and — critically — the limits of what governance can guarantee.
 
-For the foundational constitutional principles, see [GOVERNANCE-BASE.md](GOVERNANCE-BASE.md). For the technical enforcement of governance at runtime, see [ARCHITECTURE.md](ARCHITECTURE.md).
+For foundational constitutional principles, see [GOVERNANCE-BASE.md](GOVERNANCE-BASE.md). For technical enforcement at runtime, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 
 ## Governance Philosophy
 
-The Cortex Protocol is a decentralized open standard, not a corporate product. Its governance model is designed around a single principle: **clinical safety parameters are maintained by the institutions best qualified to define them — clinical and research institutions — not by the organizations that have commercial incentives to compromise them.**
+The Cortex Protocol is a decentralized open standard, not a corporate product. Its governance rests on a single principle: **clinical safety parameters are maintained by the institutions best qualified to define them, not by those with commercial incentives to compromise them.**
 
-This is enforced architecturally (through signed Clinical Capability Modules) and institutionally (through the three-body governance structure below).
+But governance is not a complete solution. This document is explicit about what governance can and cannot guarantee — because a governance framework that overstates its own power is itself a form of capture.
 
 ---
 
@@ -21,29 +21,33 @@ This is enforced architecturally (through signed Clinical Capability Modules) an
 
 **Composition:** Licensed mental health professionals, neuropsychologists, and neuroscience researchers.
 
-**Authority:** The White Branch holds exclusive, non-delegable authority over:
+**Authority:** Exclusive, non-delegable authority over:
 - All numerical thresholds in `ClinicalThresholds` and `ClinicalBridge`
 - Approval or rejection of any Clinical Capability Module (CCM)
-- Definition of the CDI reset protocol
-- Any modification to the Clinical Bridge validation logic
+- CDI reset protocol and Voluntary Activation Mode parameters
+- Any modification to Clinical Bridge validation logic
+- Annual review of LIMES entropy assumptions (see DISCLAIMER §4.1)
 
-**How authority is exercised technically:** Commits modifying `ClinicalThresholds`, `ClinicalBridge`, or any document in the clinical specification require a GPG signature from a registered White Branch member key. Unsigned modifications to these files are rejected by the contribution process.
+**Technical enforcement:** Commits modifying clinical threshold files require a GPG signature from a registered White Branch member key. Unsigned modifications are rejected.
 
-**What the White Branch does NOT control:** Implementation choices that do not affect clinical safety margins (e.g., code architecture, programming language, performance optimizations).
+**White Branch accountability:** Every threshold must carry a peer-reviewed bibliographic citation. Every modification must be versioned, publicly documented, and open to 30-day community comment before merging. The White Branch has authority because it shows its work — not because it declares authority.
+
+**What the White Branch does NOT control:** Implementation architecture, programming language choices, or performance optimizations that do not affect clinical safety margins.
 
 ---
 
 ### 2. 🛡️ Protocol Stewards (Technical Branch)
 
-**Composition:** Engineers, systems architects, and open-source contributors.
+**Composition:** Engineers, systems architects, open-source contributors.
 
-**Authority:** The Technical Branch is responsible for:
+**Authority:**
 - Implementing the SAL, CDI, and Clinical Bridge as specified by the White Branch
-- Maintaining the reference implementation and SDK
+- Maintaining the reference implementation and module SDK
 - Reviewing pull requests for technical correctness, security, and hardware-agnosticism
 - Publishing and versioning the standard specification
+- Implementing the User-Verifiable Audit Protocol (Milestone 2)
 
-**Constraint:** The Technical Branch cannot override a White Branch clinical decision. If a clinical threshold creates a technical challenge, the Technical Branch raises it as a proposal to the White Branch — it does not implement a unilateral override.
+**Constraint:** The Technical Branch cannot override a White Branch clinical decision. Technical necessity does not justify modifying clinical thresholds.
 
 ---
 
@@ -51,108 +55,157 @@ This is enforced architecturally (through signed Clinical Capability Modules) an
 
 **Composition:** Legal professionals specializing in health data law, AI regulation, and digital rights.
 
-**Authority:** The Legal Validator provides:
-- Legal signature certifying that Clinical Capability Modules comply with applicable law (GDPR, Ley 1581/2012, AI Act, neuro-rights legislation)
-- Review of the DISCLAIMER and USER-DATA-MODEL for jurisdictional accuracy
-- Advisory opinions on regulatory developments affecting the standard
+**Authority:**
+- Legal certification that CCMs comply with applicable law
+- Review of DISCLAIMER and USER-DATA-MODEL for jurisdictional accuracy
+- Advisory opinions on regulatory developments
+- Annual review of the operator risk model (Section 5)
 
-**Constraint:** The Legal Validator has no authority over clinical methodology or safety threshold values. Legal risk management does not override clinical judgment.
+**Constraint:** No authority over clinical methodology. Legal risk management does not override clinical judgment.
 
 ---
 
 ## Governance Nodes: The Institutional Layer
 
-Governance Nodes are the external institutional partners that give the protocol its independence and credibility. They are the mechanism by which the standard becomes decentralized.
+Governance Nodes are the external institutional partners that distribute the protocol's authority across independent institutions.
 
-**A Governance Node is:** A university faculty, professional association, or research center that has formally joined the Cortex Protocol governance network and has been issued a GPG keypair for signing Clinical Capability Modules.
+**A Governance Node is:** A university faculty, professional association, or research center formally joined to the governance network, holding a GPG keypair for signing Clinical Capability Modules.
 
 **What a Governance Node does:**
-1. Issues signed Clinical Capability Modules authorizing specific protocol capabilities.
-2. Participates in the Annual Review Cycle, submitting peer-reviewed evidence for threshold updates.
-3. Maintains a hardware whitelist of certified sensors for their deployment context.
-4. Provides institutional credibility for grant applications, regulatory submissions, and academic publications.
+- Issues signed CCMs authorizing specific protocol capabilities
+- Participates in the Annual Review Cycle with peer-reviewed evidence
+- Maintains a hardware whitelist for their deployment context
+- Provides institutional credibility for regulatory submissions
 
 **What a Governance Node does NOT do:**
-- Govern the core standard specification (that is the White Branch's role).
-- Hold veto power over other nodes' decisions.
-- Represent commercial interests in the governance process.
+- Hold veto power over other nodes' decisions
+- Represent commercial interests in governance processes
+- Self-certify products it manufactures or sells
 
-**How to become a Governance Node:** Open an Issue tagged `[Governance-Node-Application]`. The application must include: institutional affiliation, field of expertise, proposed scope of clinical oversight, and willingness to participate in the Annual Review Cycle. Acceptance requires White Branch approval.
-
-**Current Governance Nodes:** *(None yet — Milestone 1 objective)*
+**Current Governance Nodes:** *(None — Milestone 1 objective)*
 
 ---
 
-## The Validation Loop: From Evidence to Code
-
-Every new capability, threshold modification, or protocol extension must pass through the Validation Loop before being merged into the standard.
+## The Validation Loop
 
 ```
 [Proposal submitted as Issue]
          ↓
 [Phase 1: Clinical Audit — White Branch]
-  ↙ Rejected              ↘ Approved
-[Closed]         [Phase 2: Legal Validation — Legal Validator]
-                   ↙ Legal issue         ↘ Cleared
-               [Revised]      [Phase 3: Technical Review — Protocol Stewards]
-                                ↙ Technical issue    ↘ Approved
-                           [Revised]          [Merged + Version increment]
+  ↙ Rejected              ↘ Approved with citation
+[Closed]         [Phase 2: Legal Validation]
+                   ↙ Legal issue    ↘ Cleared
+               [Revised]    [Phase 3: Technical Review]
+                              ↙ Issue    ↘ Approved
+                          [Revised]  [30-day public comment]
+                                            ↓
+                                    [Merged + Version increment]
 ```
 
-**Phase 1 is mandatory and cannot be bypassed.** A proposal rejected for clinical reasons is closed. It may be resubmitted with new peer-reviewed evidence, but the Clinical Audit gate cannot be circumvented by appealing to technical necessity or commercial interest.
+Phase 1 is mandatory and cannot be bypassed.
 
 ---
 
 ## Annual Review Cycle
 
-The protocol's clinical safety parameters are reviewed annually. The review process:
+1. **Month 1:** Call for evidence — including LIMES entropy assumptions and LOGOS thresholds
+2. **Months 2–3:** Governance Node submissions with bibliographic support
+3. **Month 4:** White Branch review and vote
+4. **Month 5:** 30-day public comment
+5. **Month 6:** Standard update with MINOR version increment
 
-1. **Call for Evidence (Month 1):** The White Branch publishes a call for new peer-reviewed research relevant to existing thresholds.
-2. **Governance Node Submissions (Months 2–3):** Active Governance Nodes submit proposals for threshold updates, supported by literature.
-3. **White Branch Review (Month 4):** The White Branch evaluates submissions and votes on threshold modifications.
-4. **Public Comment Period (Month 5):** Proposed changes are published for 30-day community comment.
-5. **Standard Update (Month 6):** Approved changes are merged with a MINOR version increment and full changelog.
-
-**Signed manifests are time-limited.** Clinical Capability Modules issued by Governance Nodes expire after 12 months. Renewal requires participation in the Annual Review Cycle, ensuring that no outdated clinical evidence governs an active deployment.
+Signed manifests expire after 12 months. Renewal requires Annual Review participation.
 
 ---
 
 ## Anti-Capture Provisions
 
-These rules are permanent and cannot be modified by any single governance body. Changes require consensus from the White Branch, at least two active Governance Nodes, and a MAJOR version increment.
+Permanent. Changes require White Branch consensus, ≥ 2 active Governance Nodes, and a MAJOR version increment.
 
 **1. No cloud processing of biometric data.**
-Any contribution requiring cloud-based processing of raw biometric or cognitive data is automatically rejected, regardless of the justification.
+Automatically rejected regardless of justification.
 
 **2. Clinical Supremacy.**
-Commercial application logic, engagement optimization, and performance targets cannot override a signed Clinical Capability Module. The SAL enforces this at runtime, not by policy.
+Commercial logic, engagement optimization, and performance targets cannot override a signed CCM.
 
 **3. Evidence Transparency.**
-Every clinical threshold in the protocol must link to a publicly accessible, peer-reviewed reference. Thresholds without citation are invalid.
+Every clinical threshold must link to a publicly accessible peer-reviewed reference. Thresholds without citation are invalid.
 
 **4. Hardware Independence.**
-No hardware manufacturer may hold a governance role in any body that certifies their own products. No contribution may create dependency on a specific hardware vendor.
+No manufacturer may hold a governance role certifying their own products. No contribution may create vendor dependency.
 
 **5. User Sovereignty is Unconditional.**
-No governance decision may remove or restrict the user's ability to override the protocol (the Kill Switch defined in GOVERNANCE-BASE.md). The protocol serves the user — it is never its master.
+No governance decision may restrict the user's Kill Switch. The protocol serves the user.
+
+**6. Module Boundary Discipline.**
+
+| Module | Owns | SHALL NOT include |
+| :--- | :--- | :--- |
+| **CORTEX** | Biological safety | Identity, consent, hardware attestation, cognitive monitoring |
+| **LIMES** | Human liveness proof | Health monitoring, consent records, hardware sealing, cognitive tracking |
+| **ETHOS** | Dynamic consent | Liveness proofs, biometric analysis, hardware attestation, delegation tracking |
+| **KEROS** | Hardware attestation | Biological monitoring, identity proofs, consent records, cognitive metrics |
+| **LOGOS** | Cognitive integrity | Biometric monitoring, identity proofs, consent records, hardware sealing |
+
+A proposal merging two modules requires peer-reviewed clinical justification that separation causes measurable patient harm.
+
+---
+
+## The Operator Threat Model
+
+The Anti-Capture Provisions protect against AI systems acting against user interests. They do not automatically protect against human operators who deploy the protocol in bad faith. This section names that risk explicitly.
+
+### Identified Operator Risk Vectors
+
+**Workplace surveillance:** An institution requiring employees to use Cortex-certified devices and using CDI data as a performance or compliance metric without employees understanding this.
+
+**Clinical boundary violations:** A clinical operator accessing session audit logs beyond their declared purpose, or sharing data outside the consent scope.
+
+**Threshold manipulation:** A platform claiming compliance while running non-standard threshold configurations that reduce CDI sensitivity to avoid blocking engagement-driven features.
+
+**Consent theater:** An implementation presenting consent requests to users in states of limited capacity and recording the consent as valid.
+
+### Current Mitigations and Their Limits
+
+The Anti-Capture Provisions reduce operator risk. They do not eliminate it. Current mitigations are institutional — they depend on the integrity of the White Branch, the independence of Governance Nodes, and the good faith of implementers. None of these can be cryptographically enforced at present.
+
+This is an acknowledged gap. The protocol names it because a governance framework that presents itself as a complete solution when it is not is a form of the problem it claims to solve.
+
+### User-Verifiable Audit Protocol (Planned — Milestone 2)
+
+The long-term solution is a mechanism by which the user — not the Governance Node, not the operator — can independently verify that the active implementation operates within the parameters declared to them.
+
+The User-Verifiable Audit Protocol (UVAP) will allow any user to:
+- Query the active threshold configuration and compare it against the signed standard
+- Verify that consent records match what they authorized
+- Confirm that no data has been transmitted beyond declared boundaries
+
+UVAP is a Milestone 2 deliverable and a prerequisite for Level 3 (Full Pentagon Compliant) certification.
+
+---
+
+## Voluntary Activation Mode (VAM)
+
+The CDI monitors autonomic arousal as a proxy for pathological stress. High arousal can also indicate voluntary high-intensity cognitive engagement — flow states, deliberate focused work. The CDI does not currently distinguish between these states.
+
+**VAM allows a user to explicitly declare a high-intensity session** where CDI thresholds are elevated with documented consent:
+- Requires explicit user activation — not the default state
+- Records activation in audit log with timestamp and declared duration
+- Does not disable monitoring — recalibrates it to the user's declared context
+- Auto-expires at declared duration end
+- Cannot be activated when ETHOS capacity is NONE (dorsal vagal state)
+
+VAM parameters are defined by the White Branch in domain-specific CIT specifications. They are not user-configurable beyond declared presets.
 
 ---
 
 ## Conflict Resolution
 
-When the White Branch and Technical Branch disagree on whether a technical implementation satisfies a clinical requirement:
+**White Branch vs. Technical Branch:** Technical Branch documents conflict as `[Governance-Conflict]` Issue. White Branch has 14 days to respond with written clinical justification. If unresolved, an active Governance Node provides a binding independent opinion.
 
-1. The Technical Branch documents the conflict as an Issue tagged `[Governance-Conflict]`.
-2. The White Branch has 14 days to respond with a written clinical justification.
-3. If no resolution is reached, an active Governance Node is asked to provide an independent clinical opinion.
-4. The Governance Node's opinion is binding for the specific dispute.
-
-When two Governance Nodes disagree on a threshold update:
-
-1. The conflicting positions are published in the Annual Review Cycle for community comment.
-2. The White Branch makes a final determination based on the weight of peer-reviewed evidence.
-3. The dissenting Node's position is documented in the changelog.
+**Between Governance Nodes:** Conflicting positions published in Annual Review Cycle. White Branch makes final determination based on weight of evidence. Dissenting Node's position documented in changelog.
 
 ---
 
-*This document is maintained by the Protocol Stewards under White Branch oversight. Modifications to the Anti-Capture Provisions require the consensus process defined in Section 5.*
+*Governance Framework v1.2 — Protocol Stewards under White Branch oversight.*
+*Modifications to Anti-Capture Provisions require the consensus process defined above.*
